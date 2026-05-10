@@ -1,0 +1,19 @@
+INFO:     Started server process [12836]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+2026-05-10 13:18:12,852 INFO [httpx] HTTP Request: GET http://127.0.0.1:8011/cache/feed:686577751519effc23c75eaf74262104992f52004638fc58415e446c53837b78 "HTTP/1.1 404 Not Found"
+2026-05-10 13:18:14,373 INFO [telethon.network.mtprotosender] Connecting to 149.154.167.51:443/TcpFull...
+2026-05-10 13:18:14,602 INFO [telethon.network.mtprotosender] Connection to 149.154.167.51:443/TcpFull complete!
+2026-05-10 13:18:19,915 INFO [telethon.network.mtprotosender] Disconnecting from 149.154.167.51:443/TcpFull...
+2026-05-10 13:18:19,928 INFO [telethon.network.mtprotosender] Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-05-10 13:18:22,468 INFO [httpx] HTTP Request: PUT http://127.0.0.1:8011/cache/feed:686577751519effc23c75eaf74262104992f52004638fc58415e446c53837b78 "HTTP/1.1 200 OK"
+2026-05-10 13:23:33,532 INFO [httpx] HTTP Request: GET http://127.0.0.1:8011/cache/feed:686577751519effc23c75eaf74262104992f52004638fc58415e446c53837b78 "HTTP/1.1 404 Not Found"
+2026-05-10 13:23:36,054 INFO [telethon.network.mtprotosender] Connecting to 149.154.167.51:443/TcpFull...
+2026-05-10 13:23:37,304 INFO [telethon.network.mtprotosender] Connection to 149.154.167.51:443/TcpFull complete!
+2026-05-10 13:23:41,850 INFO [telethon.network.mtprotosender] Disconnecting from 149.154.167.51:443/TcpFull...
+2026-05-10 13:23:41,853 INFO [telethon.network.mtprotosender] Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-05-10 13:23:44,099 INFO [httpx] HTTP Request: PUT http://127.0.0.1:8011/cache/feed:686577751519effc23c75eaf74262104992f52004638fc58415e446c53837b78 "HTTP/1.1 200 OK"
+2026-05-10 13:23:54,568 INFO [httpx] HTTP Request: PUT http://127.0.0.1:8012/cache/profile:me "HTTP/1.1 200 OK"
+2026-05-10 13:24:11,599 INFO [httpx] HTTP Request: PUT http://127.0.0.1:8012/cache/profile:me "HTTP/1.1 200 OK"
+2026-05-10 13:24:18,807 INFO [httpx] HTTP Request: PUT http://127.0.0.1:8012/cache/profile:me "HTTP/1.1 200 OK"

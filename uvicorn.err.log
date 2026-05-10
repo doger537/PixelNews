@@ -1,0 +1,952 @@
+INFO:     Started server process [9700]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-05-03 16:38:33,363 INFO [httpx] HTTP Request: GET https://lenta.ru/rss/news "HTTP/1.1 200 OK"
+2026-05-03 16:38:33,520 INFO [httpx] HTTP Request: GET https://lenta.ru/news/2026/05/03/stoimost-stroitelstva-megamosta-na-sahalin-s-materika-otsenili/ "HTTP/1.1 200 OK"
+2026-05-03 16:38:33,525 INFO [httpx] HTTP Request: GET https://lenta.ru/news/2026/05/03/iran-prigrozil-ssha-kladbischem/ "HTTP/1.1 200 OK"
+2026-05-03 16:38:33,574 INFO [httpx] HTTP Request: GET https://lenta.ru/news/2026/05/03/zriteli-uvideli-trendovuyu-strizhku-blogera-i-obradovalis-sobstvennym-lysinam/ "HTTP/1.1 200 OK"
+2026-05-03 16:38:33,638 INFO [httpx] HTTP Request: GET https://lenta.ru/news/2026/05/03/stalo-izvestno-o-planah-nato-po-sozdaniyu-kinopropagandy/ "HTTP/1.1 200 OK"
+2026-05-03 16:38:33,665 INFO [httpx] HTTP Request: GET https://lenta.ru/news/2026/05/03/v-rossii-perechislili-dostupnye-lgoty-nekotorym-kategoriyam-grazhdan-v-2026-godu/ "HTTP/1.1 200 OK"
+2026-05-03 16:38:34,151 INFO [httpx] HTTP Request: GET https://www.interfax.ru/rss.asp "HTTP/1.1 301 Moved Permanently"
+2026-05-03 16:38:34,262 INFO [httpx] HTTP Request: GET https://www.interfax.ru/rss "HTTP/1.1 200 OK"
+2026-05-03 16:38:34,486 INFO [httpx] HTTP Request: GET https://www.interfax.ru/russia/1087415 "HTTP/1.1 200 OK"
+2026-05-03 16:38:34,770 INFO [httpx] HTTP Request: GET https://www.interfax.ru/russia/1087413 "HTTP/1.1 200 OK"
+2026-05-03 16:38:34,788 INFO [httpx] HTTP Request: GET https://www.interfax.ru/russia/1087412 "HTTP/1.1 200 OK"
+2026-05-03 16:38:46,490 INFO [httpx] HTTP Request: GET https://rssexport.rbc.ru/rbcnews/news/30/full.rss "HTTP/1.1 200 OK"
+2026-05-03 16:38:46,657 INFO [httpx] HTTP Request: GET https://www.rbc.ru/photoslider/69f74b3f9a79471c6a3a9458 "HTTP/1.1 404 Not Found"
+2026-05-03 16:38:46,696 INFO [httpx] HTTP Request: GET https://www.rbc.ru/sport/03/05/2026/69f73df29a7947451a85c133 "HTTP/1.1 200 OK"
+2026-05-03 16:38:46,779 INFO [httpx] HTTP Request: GET https://www.rbc.ru/politics/03/05/2026/69f7444f9a794708b1074590 "HTTP/1.1 200 OK"
+2026-05-03 16:38:46,898 INFO [httpx] HTTP Request: GET https://www.rbc.ru/rbcfreenews/69f7492b9a7947b76cc47d72 "HTTP/1.1 200 OK"
+2026-05-03 16:38:47,468 INFO [httpx] HTTP Request: GET https://www.kommersant.ru/RSS/news.xml "HTTP/1.1 301 Moved Permanently"
+2026-05-03 16:38:48,000 INFO [httpx] HTTP Request: GET https://www.kommersant.ru/rss/news.xml "HTTP/1.1 200 OK"
+2026-05-03 16:38:48,373 INFO [httpx] HTTP Request: GET https://www.kommersant.ru/doc/8634453 "HTTP/1.1 200 OK"
+2026-05-03 16:38:48,874 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:38:49,262 INFO [httpx] HTTP Request: GET https://www.bbc.com/news/articles/cn7prznmllko?at_medium=RSS&at_campaign=rss "HTTP/1.1 200 OK"
+2026-05-03 16:38:49,393 INFO [httpx] HTTP Request: GET https://www.bbc.com/news/articles/cvgz6q7p7n7o?at_medium=RSS&at_campaign=rss "HTTP/1.1 200 OK"
+2026-05-03 16:38:52,889 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ATwo%20women%20die%20trying%20to%20cross%20Channel%20in%20small%20boat%0AZXQPART1ZXQ%0ATwo%20women%20have%20died%20while%20trying%20to%20cross%20the%20English%20Channel%20from%20France%20in%20a%20boat%2C%20French%20officials%20have%20said.%20The%20boat%2C%20carrying%2082%20people%2C%20ran%20aground%20on%20a%20beach%20in%20northern%20France%20on%20Sunday%20morning.%20The%20two%20women%2C%20aged%20about%2020%20and%20believed%20to%20be%20of%20Sundanese%20origin%2C%20were%20found%20dead%20inside%20the%20boat%2C%20according.%20Three%20other%20people%20suffered%20serious%20wounds%20and%2014%20people%20sustained%20moderate%20injuries%2C%20he%20added.%20ZXQPART2ZXQ%0ATwo%20women%20have%20died%20while%20trying%20to%20cross%20the%20English%20Channel%20from%20France%20in%20a%20boat%2C%20French%20officials%20have%20said.%20The%20boat%2C%20carrying%2082%20people%2C%20ran%20aground%20on%20a%20beach%20in%20northern%20France%20on%20Sunday%20morning.%20The%20two%20women%2C%20aged%20about%2020%20and%20believed%20to%20be%20of%20Sundanese%20origin%2C%20were%20found%20dead%20inside%20the%20boat%2C%20according%20to%20Christophe%20Marx%2C%20secretary-general%20of%20the%20Pas-de-Calais%20prefecture.%20Three%20other%20people%20suffered%20serious%20wounds%20and%2014%20people%20sustained%20moderate%20injuries%2C%20he%20added.%20An%20investigation%20has%20been%20launched%20by%20the%20Boulogne-sur-Mer%20prosecutor%27s%20office.%20A%20Home%20Office%20spokesperson%20said%20it%20was%20%22deeply%20saddened%22%20by%20the%20deaths. "HTTP/1.1 200 OK"
+2026-05-03 16:38:53,213 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=%22Every%20death%20in%20the%20Channel%20is%20a%20tragedy%20and%20a%20stark%20reminder%20of%20the%20dangers%20posed%20by%20criminal%20gangs%20exploiting%20vulnerable%20people%20for%20profit%2C%22%20they%20added.%20The%20Home%20Office%20has%20said%20it%20will%20continue%20%22to%20work%20relentlessly%22%20with%20French%20authorities%20and%20partners%20overseas%20%22to%20prevent%20these%20perilous%20journeys%22.%20In%20the%20latest%20channel%20crossings%2C%20597%20migrants%20in%20six%20small%20boats%2C%20arrived%20in%20the%20UK%20over%20the%20past%20seven%20days%2C%20according%20to%20the%20latest%20government%20figures.%20In%20April%2C%20the%20UK%20and%20France%20signed%20a%20new%20%C2%A3662m%20small%20boats%20deal%20.%20It%20will%20see%20riot-trained%20police%20sent%20to%20beaches%20in%20France%20as%20part%20of%20the%20agreement%20in%20an%20effort%20to%20stop%20illegal%20migrants%20from%20crossing%20the%20Channel.%20It%20also%20includes%20France%20deploying%20millions%20of%20pounds%20worth%20of%20drones%2C%20helicopters%20and%20a%20camera%20system%20to%20intercept%20people%20smugglers%20and%20illegal%20migrants.%20Over%20the%20past%20three%20years%2C%20crossings%20have%20increased%2C%20with%2041%2C472%20people%20arriving%20in%20the%20UK%20by%20small%20boat%20in%202025.%20A%20Home%20Office%20spokesperson%20said%20previously%3A%20%22We%20have%20stopped%20over%2042%2C000%20illegal%20migrants%20attempting%20to%20cross%20the%20Channel%20since%20the%20election.%20%22We%20have%20removed%20or%20deported%20almost%2060%2C000%20people%20who%20were%20here%20illegally.%20%22But%20we "HTTP/1.1 200 OK"
+2026-05-03 16:38:55,999 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ATwo%20US%20service%20members%20reported%20missing%20in%20Morocco%2C%20officials%20say%0AZXQPART1ZXQ%0ATwo%20US%20service%20members%20have%20gone%20missing%20during%20military%20exercises%20in%20Morocco%2C%20the%20US%20African%20Command%20%28Africom%29%20said%20on%20Sunday.%20The%20missing%20Americans%20were%20participating%20in%20African%20Lion%202026%2C%20an%20annual%20joint%20exercise%20designed%20to%20strengthen%20operations%20between%20US%20forces.%20They%20were%20reported%20missing%20on%20Saturday%20near%20the%20Cap%20Draa%20Training%20Area%2C%20which%20is%20near%20the%20city%20of%20Tan%20Tan.%20A%20search%20and%20rescue%20mission%20involving%20ground%2C%20air%2C%20and%20maritime%20resources%20from%20the%20US%2C%20Morocco%20and%20other%20countries%20is%20underway.%20ZXQPART2ZXQ%0ATwo%20US%20service%20members%20have%20gone%20missing%20during%20military%20exercises%20in%20Morocco%2C%20the%20US%20African%20Command%20%28Africom%29%20said%20on%20Sunday.%20The%20missing%20Americans%20were%20participating%20in%20African%20Lion%202026%2C%20an%20annual%20joint%20exercise%20designed%20to%20strengthen%20operations%20between%20US%20forces%2C%20Nato%20allies%2C%20and%20African%20nations.%20They%20were%20reported%20missing%20on%20Saturday%20near%20the%20Cap%20Draa%20Training%20Area%2C%20which%20is%20near%20the%20city%20of%20Tan%20Tan%20in%20Morocco%2C%20Africom%20said. "HTTP/1.1 200 OK"
+2026-05-03 16:38:57,271 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=A%20search%20and%20rescue%20mission%20involving%20ground%2C%20air%2C%20and%20maritime%20resources%20from%20the%20US%2C%20Morocco%20and%20other%20countries%20is%20underway%20for%20the%20service%20members%2C%20officials%20said.%20Rachel%20Kerr%20had%20not%20been%20seen%20since%20checking%20out%20of%20her%20hotel%20on%20Saturday.%20Paris%20St%E2%80%91Germain%20full-back%20Achraf%20Hakimi%20has%20been%20ruled%20out%20for%20the%20%22next%20few%20weeks%22%20after%20suffering%20an%20injury%20during%20their%20dramatic%20win%20against%20Bayern%20Munich%20in%20the%20Champions%20League.%20Moroccan%20Jews%20celebrate%20Mimouna%20at%20the%20end%20of%20Passover%20with%20family%2C%20friends%20and%20food.%20Confederation%20of%20African%20Football%20president%20Patrice%20Motsepe%20has%20%22zero%20tolerance%22%20for%20corruption%2C%20which%20he%20says%20is%20%22worse%20than%20cancer%22.%20The%20final%20six%20nations%20have%20qualified%20for%20the%202026%20World%20Cup%20-%20this%20is%20your%20essential%20lowdown%20on%20the%20expanded%20edition%20of%20the%20tournament.%20Copyright%202026%20BBC.%20All%20rights%20reserved.%20The%20BBC%20is%20not%20responsible%20for%20the%20content%20of%20external%20sites.%20Read%20about%20our%20approach%20to%20external%20linking. "HTTP/1.1 200 OK"
+2026-05-03 16:38:57,925 INFO [httpx] HTTP Request: GET https://nplus1.ru/rss "HTTP/1.1 200 OK"
+2026-05-03 16:38:58,822 INFO [httpx] HTTP Request: GET https://habr.com/ru/rss/news/?fl=ru "HTTP/1.1 200 OK"
+2026-05-03 16:38:59,611 INFO [httpx] HTTP Request: GET https://www.championat.com/rss/news/ "HTTP/1.1 200 OK"
+2026-05-03 16:38:59,794 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454728-agent-kravcova-otreagiroval-na-het-trik-igroka-sochi-v-vorota-orenburga.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,028 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454696-sochi-orenburg-rezultat-matcha-3-maya-2026-schet-3-1-28-j-tur-rpl-2025-2026.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,213 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454706-zaschitnik-zenita-i-sbornoj-slovenii-drkushich-ocenil-uspehi-eks-igroka-cska-bijola-v-apl.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,322 INFO [httpx] HTTP Request: GET https://www.championat.com/tennis/news-6454716-rafael-hodar-vstretilsya-s-prezidentom-bk-real-madrid-i-poluchil-futbolku-ot-kluba.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,393 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454704-manchester-yunajted-liverpul-startovye-sostavy-komand-na-match-35-go-tura-apl-2025-2026-3-maya.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,410 INFO [httpx] HTTP Request: GET https://www.championat.com/cybersport/news-6454698-serial-terror-3-sezon-2026-data-vyhoda-serij-raspisanie-gde-smotret-v-horoshem-kachestve.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,426 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454676-ahmat-pari-nn-onlajn-translyaciya-matcha-28-go-tura-rpl-2025-2026-nachnyotsya-v-19-30-3-maya-2026.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,433 INFO [httpx] HTTP Request: GET https://www.championat.com/hockey/news-6454708-korobkin-poluchil-udalenie-za-ataku-vratarya-za-4-sekundy-do-konca-osnovnogo-vremeni-matcha.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,452 INFO [httpx] HTTP Request: GET https://www.championat.com/basketball/news-6454710-trener-eniseya-markovich-prokommentiroval-vylet-iz-plej-off-edinoj-ligi.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,555 INFO [httpx] HTTP Request: GET https://www.championat.com/auto/news-6454668-luchshee-chto-bylo-za-ves-2026-j-norris-o-vyezde-na-nyurbugringe.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,575 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454684-levandovski-zayavil-chto-barselona-hochet-nabrat-100-ochkov-v-la-lige.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,631 INFO [httpx] HTTP Request: GET https://www.championat.com/tennis/news-6454680-andreeva-shnajder-sinyakova-taunsend-rossiyanki-proigrali-pervyj-set-finala-v-madride.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,642 INFO [httpx] HTTP Request: GET https://www.championat.com/skiing/news-6454692-sezon-2026-2027-mozhet-stat-poslednim-v-karere-norvezhki-hejdi-veng-langreen.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,651 INFO [httpx] HTTP Request: GET https://www.championat.com/cybersport/news-6454682-stala-izvestna-tochnaya-data-vyhoda-gonki-forza-horizon-6.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:00,660 INFO [httpx] HTTP Request: GET https://www.championat.com/football/news-6454690-sochi-orenburg-zhezus-sokratil-otstavanie-gostej-na-69-j-minute-v-matche-28-go-tura-rpl-2025-2026-3-maya-2026.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:01,486 INFO [httpx] HTTP Request: GET https://www.vedomosti.ru/rss/news "HTTP/1.1 200 OK"
+2026-05-03 16:39:01,987 INFO [httpx] HTTP Request: GET https://www.vedomosti.ru/politics/news/2026/05/03/1194768-merts-otvetil-bolnoi-nemke "HTTP/1.1 200 OK"
+2026-05-03 16:39:02,233 INFO [httpx] HTTP Request: GET https://www.vedomosti.ru/politics/news/2026/05/03/1194767-zelenskii-pribil-v-erevan "HTTP/1.1 200 OK"
+2026-05-03 16:39:03,047 INFO [httpx] HTTP Request: GET https://www.cnews.ru/inc/rss/news.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:04,739 INFO [httpx] HTTP Request: GET https://vc.ru/rss/all "HTTP/1.1 200 OK"
+2026-05-03 16:39:05,201 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/world/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:05,296 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/technology/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:05,777 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/World.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:06,348 INFO [httpx] HTTP Request: GET https://www.nytimes.com/2026/05/02/world/canada/fifa-world-cup-copyright.html "HTTP/1.1 403 Forbidden"
+2026-05-03 16:39:06,356 INFO [httpx] HTTP Request: GET https://www.nytimes.com/2026/05/02/world/europe/timmy-whale-germany-released.html "HTTP/1.1 403 Forbidden"
+2026-05-03 16:39:06,383 INFO [httpx] HTTP Request: GET https://www.nytimes.com/2026/05/02/world/middleeast/us-fast-track-arms-deal-middle-east.html "HTTP/1.1 403 Forbidden"
+2026-05-03 16:39:06,435 INFO [httpx] HTTP Request: GET https://www.nytimes.com/video/world/asia/100000010844213/china-ai-entertainment-microdrama.html "HTTP/1.1 200 OK"
+2026-05-03 16:39:15,473 INFO [httpx] HTTP Request: GET https://lenta.ru/rss/news "HTTP/1.1 200 OK"
+2026-05-03 16:39:15,985 INFO [httpx] HTTP Request: GET https://www.interfax.ru/rss.asp "HTTP/1.1 301 Moved Permanently"
+2026-05-03 16:39:16,093 INFO [httpx] HTTP Request: GET https://www.interfax.ru/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:16,204 INFO [httpx] HTTP Request: GET https://rssexport.rbc.ru/rbcnews/news/30/full.rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:16,728 INFO [httpx] HTTP Request: GET https://www.kommersant.ru/RSS/news.xml "HTTP/1.1 301 Moved Permanently"
+2026-05-03 16:39:16,966 INFO [httpx] HTTP Request: GET https://www.kommersant.ru/rss/news.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:17,318 INFO [httpx] HTTP Request: GET https://www.kommersant.ru/doc/8634469 "HTTP/1.1 200 OK"
+2026-05-03 16:39:19,838 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0A%E2%80%98Wartime%20Relic%E2%80%99%20Explodes%20Under%20Campfire%20in%20Austria%2C%20Injuring%20Five%20Children%0AZXQPART1ZXQ%0AThe%20children%2C%20aged%20between%2010%20and%2014%2C%20were%20transported%20to%20a%20hospital%20for%20treatment%20after%20the%20explosion%20in%20northern%20Upper.%20ZXQPART2ZXQ%0AThe%20children%2C%20aged%20between%2010%20and%2014%2C%20were%20transported%20to%20a%20hospital%20for%20treatment%20after%20the%20explosion%20in%20northern%20Upper%20Austria%2C%20the%20police%20said. "HTTP/1.1 200 OK"
+2026-05-03 16:39:21,876 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AVideo%3A%20A.I.%20Shakes%20Up%20China%E2%80%99s%20Entertainment%20Landscape%0AZXQPART1ZXQ%0Anew%20video%20loaded%3A%20A.I.%20Shakes%20Up%20China%E2%80%99s%20Entertainment%20Landscape%20A.I.%20is%20changing%20China%E2%80%99s%20entertainment%20industry%2C%20and%20transforming%20one%20of%20its%20most%20popular%20genres%3A.%20Microdramas%20are%20short%2C%20serialized%20shows%20made%20for%20the%20phone%2C%20that%20use%20rapid%20plot%20developments%20to%20hook%20viewers.%20The%20addictive%20bite-sized%20videos%20have%20become%20increasingly%20popular%2C%20creating%20a%2014%20billion%20dollar%20industry%20in%20China.%20ZXQPART2ZXQ%0Anew%20video%20loaded%3A%20A.I.%20Shakes%20Up%20China%E2%80%99s%20Entertainment%20Landscape%20A.I.%20is%20changing%20China%E2%80%99s%20entertainment%20industry%2C%20and%20transforming%20one%20of%20its%20most%20popular%20genres%3A%20the%20microdrama.%20Microdramas%20are%20short%2C%20serialized%20shows%20made%20for%20the%20phone%2C%20that%20use%20rapid%20plot%20developments%20to%20hook%20viewers.%20The%20addictive%20bite-sized%20videos%20have%20become%20increasingly%20popular%2C%20creating%20a%2014%20billion%20dollar%20industry%20in%20China.%20Powerful%20new%20A.I.%20tools%20are%20making%20it%20faster%20and%20cheaper%20to%20create%20episodes.%20But%20as%20A.I.-generated%20dramas%20take%20off%2C%20some%20feel%20that%20they%E2%80%99re%20being%20left%20behind.%20This%20actress%20and%20director%20shared%20videos%20with%20The%20New%20York%20Times%20of%20their%20experiences%20in%20a%20changing%20industry. "HTTP/1.1 200 OK"
+2026-05-03 16:39:23,126 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Xing%20Enran%20has%20been%20a%20microdrama%20actress%20since%202023%2C%20taking%20on%20supporting%20roles%2C%20and%20often%20playing%20the%20seductress.%20She%20said%20every%20day%20was%20busy%2C%20but%20rewarding.%20Wang%20Yushun%20started%20his%20career%20as%20an%20independent%20filmmaker.%20But%20he%20struggled%20to%20find%20an%20audience%20for%20his%20work.%20So%20Wang%20decided%20to%20direct%20his%20first%20microdrama.%20A%20month%20after%20the%20shoot%2C%20his%20episodes%20were%20online%20and%20people%20were%20paying%20to%20watch%20them.%20Since%20then%2C%20Wang%20has%20created%20over%2050%20microdramas%20and%20set%20up%20his%20own%20production%20company%20with%20around%20100%20employees.%20But%20things%20quickly%20changed%20for%20Wang%20and%20Xing%20in%20February%20when%20a%20new%20A.I.-video%20model%20called%20Seedance%20made%20it%20possible%20to%20create%20cinematic%20videos%20like%20this%20one%20showing%20Brad%20Pitt%20and%20Tom%20Cruise%20in%20a%20multi-camera%20fight%20scene.%20At%20the%20same%20time%2C%20microdrama%20streaming%20platforms%20began%20demanding%20higher%20quality.%20So%20Wang%20tested%20what%20he%20could%20do%20with%20Seedance.%20Wang%20says%20A.I.%20has%20helped%20him%20cut%20production%20time%20and%20costs%20on%20special%20effects.%20It%20also%20opened%20up%20his%20creativity%2C%20allowing%20him%20to%20design%20complex%20sci-fi%20characters.%20But%20this%20has%20come%20at%20the%20expense%20of%20his%20staff.%20Wang%20said%20he%20laid%20off%20around%2050%20people%20including "HTTP/1.1 200 OK"
+2026-05-03 16:39:25,567 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0APlanning%20a%20World%20Cup%20Watch%20Party%20at%20a%20Bar%3F%20The%20%E2%80%98FIFA%20Police%E2%80%99%20Are%20Lurking%0AZXQPART1ZXQ%0ASome%20businesses%20advertising%20watch%20parties%20in%20Canada%E2%80%99s%20two%20host%20cities%20are%20wary%20of%20running%20afoul%20of%20FIFA%E2%80%99s%20copyright%2C%20which%20protects.%20ZXQPART2ZXQ%0ASome%20businesses%20advertising%20watch%20parties%20in%20Canada%E2%80%99s%20two%20host%20cities%20are%20wary%20of%20running%20afoul%20of%20FIFA%E2%80%99s%20copyright%2C%20which%20protects%20advertising%20%E2%80%9CWorld%20Cup%E2%80%9D%20events. "HTTP/1.1 200 OK"
+2026-05-03 16:39:27,901 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AU.S.%20Fast-Tracks%20Arms%20Deals%20Valued%20at%20%248.6%20Billion%20to%20Mideast%20Partners%0AZXQPART1ZXQ%0AThe%20Persian%20Gulf%20countries%20and%20Israel%20have%20faced%20repeated%20Iranian%20attacks%20during%20the%20U.S.-Israeli%20war%20with%20Iran.%20The%20State%20Department%20move%20bypassed%20congressional%20review.%20ZXQPART2ZXQ%0AThe%20Persian%20Gulf%20countries%20and%20Israel%20have%20faced%20repeated%20Iranian%20attacks%20during%20the%20U.S.-Israeli%20war%20with%20Iran.%20The%20State%20Department%20move%20bypassed%20congressional%20review. "HTTP/1.1 200 OK"
+2026-05-03 16:39:29,980 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ATimmy%20the%20Stranded%20Whale%20Is%20Released%20After%20an%20Elaborate%20Rescue%0AZXQPART1ZXQ%0AThe%20humpback%20whale%2C%20stuck%20for%20weeks%20in%20shallow%20waters%20off%20Germany%2C%20was%20towed%20to%20the%20North%20Sea%20in%20a%20barge.%20The%20story%20captivated%20the%20country.%20ZXQPART2ZXQ%0AThe%20humpback%20whale%2C%20stuck%20for%20weeks%20in%20shallow%20waters%20off%20Germany%2C%20was%20towed%20to%20the%20North%20Sea%20in%20a%20barge.%20The%20story%20captivated%20the%20country. "HTTP/1.1 200 OK"
+2026-05-03 16:39:30,016 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for BBC World
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:39:31,322 INFO [httpx] HTTP Request: GET https://lenta.ru/rss/news "HTTP/1.1 200 OK"
+2026-05-03 16:39:31,461 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:31,583 INFO [httpx] HTTP Request: GET https://nplus1.ru/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:31,966 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/Business.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:32,411 INFO [httpx] HTTP Request: GET https://www.theguardian.com/world/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:32,438 INFO [httpx] HTTP Request: GET https://www.interfax.ru/rss.asp "HTTP/1.1 301 Moved Permanently"
+2026-05-03 16:39:32,530 INFO [httpx] HTTP Request: GET https://habr.com/ru/rss/news/?fl=ru "HTTP/1.1 200 OK"
+2026-05-03 16:39:32,553 INFO [httpx] HTTP Request: GET https://www.interfax.ru/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:32,590 INFO [httpx] HTTP Request: GET https://www.theguardian.com/technology/rss "HTTP/1.1 302 Found"
+2026-05-03 16:39:32,674 INFO [httpx] HTTP Request: GET https://rssexport.rbc.ru/rbcnews/news/30/full.rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:32,711 INFO [httpx] HTTP Request: GET https://www.theguardian.com/uk/technology/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,206 INFO [httpx] HTTP Request: GET https://www.championat.com/rss/news/ "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,227 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/xml/rss/all.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,426 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/sports/2026/5/3/usa-vs-paraguay-among-world-cup-games-with-unsold-exorbitant-tickets?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,591 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/opinions/2026/5/3/it-does-not-make-sense-to-invest-more-arab-resources-in-a-us-alliance?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,637 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/news/2026/5/3/was-the-iran-war-the-final-blow-in-the-collapse-of-spirit-airlines?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,639 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:33,962 INFO [httpx] HTTP Request: GET https://www.vedomosti.ru/rss/news "HTTP/1.1 200 OK"
+2026-05-03 16:39:34,645 INFO [httpx] HTTP Request: GET https://www.cnews.ru/inc/rss/news.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:36,236 INFO [httpx] HTTP Request: GET https://vc.ru/rss/all "HTTP/1.1 200 OK"
+2026-05-03 16:39:36,691 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/world/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:36,780 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/technology/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:37,055 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/World.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:37,171 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:37,271 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/Business.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:37,814 INFO [httpx] HTTP Request: GET https://www.theguardian.com/world/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:38,017 INFO [httpx] HTTP Request: GET https://www.theguardian.com/technology/rss "HTTP/1.1 302 Found"
+2026-05-03 16:39:38,146 INFO [httpx] HTTP Request: GET https://www.theguardian.com/uk/technology/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:38,496 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/xml/rss/all.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:38,779 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/video/newsfeed/2026/5/3/us-to-cut-troops-in-germany-as-iran-war-spat-deepens?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:38,969 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/opinions/2026/5/3/it-does-not-make-sense-to-invest-more-arab-resources-in-a-us-alliance?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:38,993 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/news/2026/5/3/was-the-iran-war-the-final-blow-in-the-collapse-of-spirit-airlines?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:38,997 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/video/newsfeed/2026/5/3/netanyahu-boasts-of-israels-billion-dollar-military-investments?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:39,002 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/sports/2026/5/3/usa-vs-paraguay-among-world-cup-games-with-unsold-exorbitant-tickets?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:39,016 INFO [httpx] HTTP Request: GET https://www.aljazeera.com/news/2026/5/3/opec-announces-symbolic-oil-output-rise-during-strait-of-hormuz-closure?traffic_source=rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:41,392 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AUS%20to%20cut%20troops%20in%20Germany%20as%20Iran%20war%20spat%20deepens%0AZXQPART1ZXQ%0AUS%20to%20cut%20troops%20in%20Germany%20as%20Iran%20war%20spat%20deepens%20US-German%20relations%20are%20straining%20as%20a%20spat%20deepens%20between.%20Trump%20says%20he%20will%20withdraw%20troops%20from%20US%20bases%20in%20Germany%2C%20after%20Merz%20said%20Iran%20was%20%E2%80%98humiliating%E2%80%99%20the%20US.%20ZXQPART2ZXQ%0AUS%20to%20cut%20troops%20in%20Germany%20as%20Iran%20war%20spat%20deepens%20US-German%20relations%20are%20straining%20as%20a%20spat%20deepens%20between%20President%20Donald%20Trump%20and%20Chancellor%20Friedrich%20Merz%20over%20the%20war%20on%20Iran.%20Trump%20says%20he%20will%20withdraw%20troops%20from%20US%20bases%20in%20Germany%2C%20after%20Merz%20said%20Iran%20was%20%E2%80%98humiliating%E2%80%99%20the%20US. "HTTP/1.1 200 OK"
+2026-05-03 16:39:44,093 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AUSA%20vs%20Paraguay%20among%20World%20Cup%20games%20with%20unsold%2C%20exorbitant%20tickets%0AZXQPART1ZXQ%0ATickets%20for%20the%20cohosts%E2%80%99%20opening%20game%20in%20Los%20Angeles%20are%20available%20for%20prices%20ranging%20between%20%241%2C120%20and%20%246%2C050.%20With%20under%2040%20days%20to%20go%20until%20the%20World%20Cup%2C%20tournament%20organisers%20continue%20to%20struggle%20with%20ticket%20sales%20as%20seats.%20Home%20fans%20can%20find%20tickets%20for%20tournament%20cohost%20United%20States%E2%80%99%20%28USA%29%20opener%20against%20Paraguay%2C%20with%20prices%20starting%20at%20%241%2C120.%20Seats%20in%20the%20hospitality%20package%20groupings%20go%20as%20high%20as%20%246%2C050%20per%20seat.%20ZXQPART2ZXQ%0ATickets%20for%20the%20cohosts%E2%80%99%20opening%20game%20in%20Los%20Angeles%20are%20available%20for%20prices%20ranging%20between%20%241%2C120%20and%20%246%2C050.%20With%20under%2040%20days%20to%20go%20until%20the%20World%20Cup%2C%20tournament%20organisers%20continue%20to%20struggle%20with%20ticket%20sales%20as%20seats%20remain%20available%20for%20most%20group-stage%20games%2C%20albeit%20at%20exorbitant%20prices.%20Home%20fans%20can%20find%20tickets%20for%20tournament%20cohost%20United%20States%E2%80%99%20%28USA%29%20opener%20against%20Paraguay%2C%20with%20prices%20starting%20at%20%241%2C120%20and%20going%20as%20high%20as%20%244%2C105%2C%20with%20many%20tickets%20priced%20around%20%242%2C000%20for%20the%20June%2012%20match%20in%20Los%20Angeles.%20Seats%20in%20the%20hospitality%20package%20groupings%20go%20as%20high%20as%20%246%2C050%20per%20seat. "HTTP/1.1 200 OK"
+2026-05-03 16:39:45,198 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Tickets%20are%20still%20available%20on%20FIFA%E2%80%99s%20official%20website%20through%20its%20%E2%80%9Clast-minute%20sales%E2%80%9D%20section.%20Football%20fans%20are%20already%20outraged%20by%20exorbitant%20match%20prices%20%E2%80%94%20the%20most%20expensive%20ticket%20for%20the%20final%20costs%20nearly%20%2411%2C000%20%E2%80%94%20since%20the%20first%20phase%20of%20ticket%20sales%20in%20December.%20Late%20last%20month%2C%20FIFA%20announced%20yet%20another%20%E2%80%9Clast-minute%20ticket%20phase%E2%80%9D%20with%20tickets%20for%20all%20104%20matches%20available%20on%20a%20first-come%2C%20first-served%20basis.%20The%20stagnant%20sales%20contradict%20FIFA%20President%20Gianni%20Infantino%E2%80%99s%20assertion%20in%20January%20that%20demand%20for%20tickets%20for%20this%20year%E2%80%99s%20tournament%20in%20the%20US%2C%20Canada%20and%20Mexico%20would%20be%20the%20equivalent%20of%20%E2%80%9C1%2C000%20years%20of%20World%20Cups%20at%20once%E2%80%9D.%20Experts%20attribute%20dynamic%20pricing%20and%20greed%20as%20key%20factors%2C%20with%20fans%20saying%20they%20have%20been%20%E2%80%9Cpriced%20out%E2%80%9D%20by%20FIFA.%20While%20many%20in%20the%20US%20are%20accustomed%20to%20the%20pricing%20model%20commonly%20adopted%20at%20the%20Super%20Bowl%2C%20fans%20from%20around%20the%20world%20are%20not%20used%20to%20dynamic%20pricing%20and%20legal%20profiting%20from%20ticket%20resales%2C%20sports%20executive%20Peter%20Moore%20told%20Al%20Jazeera%20in%20a%20recent%20interview.%20%E2%80%9CFIFA%20taking%20a%2030%20percent%20cut%20of%20dynamic%20pricing%20is%20outrageous%2C%E2%80%9D%20the%20former%20Liverpool%20chief%20executive%20said.%20%E2%80%9CFIFA%20is%20taking%20advantage%20of%20the%20unique%20commercial%20opp "HTTP/1.1 200 OK"
+2026-05-03 16:39:47,427 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AIt%20does%20not%20make%20sense%20to%20invest%20more%20Arab%20resources%20in%20a%20US%20alliance%0AZXQPART1ZXQ%0AThe%20US%20will%20always%20prioritise%20Israel%20over%20the%20Arab%20world.%20Arab%20unity%20is%20the%20only%20way%20to%20establish%20security%20for%20all.%20For%20decades%2C%20Gulf%20states%20operated%20under%20the%20assumption%20that%20their%20most%20important%20strategic%20partner%20was%20the%20United%20States.%20They%20built%20an%20extensive%20and%20multidimensional%20partnership%20with%20Washington%2C%20one%20that%20spanned%20security%2C%20energy%2C%20finance%2C%20and%20diplomacy.%20ZXQPART2ZXQ%0AThe%20US%20will%20always%20prioritise%20Israel%20over%20the%20Arab%20world.%20Arab%20unity%20is%20the%20only%20way%20to%20establish%20security%20for%20all.%20For%20decades%2C%20Gulf%20states%20operated%20under%20the%20assumption%20that%20their%20most%20important%20strategic%20partner%20was%20the%20United%20States.%20They%20built%20an%20extensive%20and%20multidimensional%20partnership%20with%20Washington%2C%20one%20that%20spanned%20security%2C%20energy%2C%20finance%2C%20and%20diplomacy.%20In%20launching%20its%20war%20alongside%20Israel%20against%20Iran%2C%20however%2C%20the%20US%20sidelined%20its%20Gulf%20partners%2C%20ignoring%20their%20appeals%20and%20concerns.%20Now%2C%20as%20the%20Trump%20administration%20attempts%20to%20negotiate%20with%20Iran%2C%20it%20again%20appears%20to%20have%20the%20interests%20of%20Israel%20as%20its%20top%20priority%3B%20the%20concerns%20of%20its%20Arab%20allies%20are%20once%20again%20overlooked. "HTTP/1.1 200 OK"
+2026-05-03 16:39:48,685 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=No%20matter%20how%20much%20these%20countries%20have%20done%20or%20how%20much%20more%20they%20are%20willing%20to%20offer%2C%20their%20interests%20will%20remain%20expendable%20in%20Washington%20whenever%20they%20collide%20with%20those%20of%20Israel.%20Few%20alliances%20in%20modern%20history%20have%20been%20as%20deep%20or%20as%20mutually%20reinforcing%20as%20the%20one%20between%20the%20Gulf%20and%20the%20US%2C%20with%20with%20Gulf%20countries%20effectively%20opening%20their%20territory%20to%20a%20near-unconditional%20American%20military%20presence.%20Trade%20between%20the%20two%20sides%20exceeded%20%24120bn%20in%202024%2C%20underpinned%20by%20Gulf%20investments%20in%20the%20US%20economy.%20This%20has%20been%20matched%20by%20a%20significant%20US%20presence%20in%20Gulf%20markets%20across%20technology%2C%20energy%20and%20infrastructure.%20The%20scale%20of%20this%20interdependence%20was%20further%20underscored%20at%20the%202025%20Riyadh%20summit%2C%20which%20yielded%20trade%20and%20investment%20agreements%20surpassing%20%242%20trillion.%20In%20the%20same%20year%2C%20Gulf%20sovereign%20wealth%20funds%20channelled%20nearly%20%2470bn%20into%20US%20assets%20.%20Beyond%20headline%20figures%2C%20the%20Gulf%20has%20played%20a%20longstanding%20role%20in%20financing%20the%20US%20by%20recycling%20its%20Treasury%20bonds%2C%20helping%20sustain%20low%20borrowing%20costs%20and%20reinforcing%20the%20dollar%E2%80%99s%20global%20dominance%2C%20while%20supporting%20hundred "HTTP/1.1 200 OK"
+2026-05-03 16:39:50,478 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ANetanyahu%20boasts%20of%20Israel%E2%80%99s%20billion-dollar%20military%20investments%0AZXQPART1ZXQ%0ANetanyahu%20boasts%20of%20Israel%E2%80%99s%20billion-dollar%20military%20investments%20Benjamin%20Netanyahu%20says%20Israel%20will%20invest%20%24119%20billion%20USD%20into%20developing%20its%20own.%20ZXQPART2ZXQ%0ANetanyahu%20boasts%20of%20Israel%E2%80%99s%20billion-dollar%20military%20investments%20Benjamin%20Netanyahu%20says%20Israel%20will%20invest%20%24119%20billion%20USD%20into%20developing%20its%20own%20military%20weapons%20systems%20in%20order%20to%20%E2%80%98not%20be%20dependent%20on%20foreign%20countries%E2%80%99. "HTTP/1.1 200 OK"
+2026-05-03 16:39:52,848 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AWas%20the%20Iran%20war%20the%20final%20blow%20in%20the%20collapse%20of%20Spirit%20Airlines%3F%20ZXQPART1ZXQ%0AThe%20shutdown%20of%20the%20budget%20airline%20after%2034%20years%20has%20left%2017%2C000%20staff%20members%20unemployed.%20Spirit%20Airlines%2C%20a%20budget%20carrier%20in%20the%20United%20States%2C%20has%20begun%20winding%20down%20operations%2C%20cancelling%20all%20flights%2C%20after%20talks.%20Experts%20say%20a%20spike%20in%20aviation%20fuel%20prices%20from%20the%20US-Israel%20war%20on%20Iran%20dealt%20the%20final%20blow%20to.%20The%20airline%E2%80%99s%20shutdown%20after%2034%20years%20has%20left%20some%2017%2C000%20staff%20members%20unemployed%2C%20many%20passengers%20stranded%2C%20and%20raised%20doubts%20about.%20ZXQPART2ZXQ%0AThe%20shutdown%20of%20the%20budget%20airline%20after%2034%20years%20has%20left%2017%2C000%20staff%20members%20unemployed.%20Spirit%20Airlines%2C%20a%20budget%20carrier%20in%20the%20United%20States%2C%20has%20begun%20winding%20down%20operations%2C%20cancelling%20all%20flights%2C%20after%20talks%20with%20the%20Trump%20administration%20to%20secure%20a%20%24500m%20bailout%20failed.%20Experts%20say%20a%20spike%20in%20aviation%20fuel%20prices%20from%20the%20US-Israel%20war%20on%20Iran%20dealt%20the%20final%20blow%20to%20the%20struggling%20airline%20that%20pioneered%20the%20ultralow-cost%20carrier%20model.%20The%20airline%E2%80%99s%20shutdown%20after%2034%20years%20has%20left%20some%2017%2C000%20staff%20members%20unemployed%2C%20many%20passengers%20stranded%2C%20and%20raised%20doubts%20about%20the%20future%20of%20budget%20air%20travel. "HTTP/1.1 200 OK"
+2026-05-03 16:39:53,489 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=How%20did%20Spirit%20Airlines%20reach%20this%20point%3F%20Did%20the%20US-Israel%20war%20on%20Iran%20deliver%20the%20final%20blow%3F%20On%20Saturday%2C%20Spirit%20Aviation%20Holdings%2C%20the%20airline%E2%80%99s%20parent%20company%2C%20said%20the%20company%20had%20started%20to%20wind%20down%20operations.%20%E2%80%9CSpirit%20Aviation%20Holdings%2C%20Inc%20%E2%80%A6%20today%20regretfully%20announced%20that%20the%20Company%20has%20started%20an%20orderly%20wind-down%20of%20operations%2C%20effective%20immediately.%20All%20Spirit%20flights%20have%20been%20cancelled%2C%20and%20Spirit%20Guests%20should%20not%20go%20to%20the%20airport%2C%E2%80%9D%20the%20company%20said%20in%20a%20statement%20on%20Saturday.%20The%20statement%20added%20that%2C%20despite%20its%20efforts%2C%20%E2%80%9Cthe%20recent%20material%20increase%20in%20oil%20prices%20and%20other%20pressures%20on%20the%20business%20have%20significantly%20impacted%20Spirit%E2%80%99s%20financial%20outlook%E2%80%9D.%20Spirit%20Airlines%20%2C%20whose%20airfares%20were%20lower%20compared%20with%20other%20US%20airlines%2C%20had%204%2C119%20domestic%20flights%20scheduled%20between%20May%201%20and%20May%2015%2C%20offering%20809%2C638%20seats%2C%20according%20to%20the%20latest%20data%20from%20Cirium%2C%20an%20aviation%20analytics%20firm.%20The%20carrier%E2%80%99s%20parent%20firm%20started%20as%20a%20long-haul%20trucking%20company%20in%201964.%20It%20shifted%20to%20aviation%20around%201983.%20The%20carrier%20rebranded%20from%20Charter%20One%20Airlines%20to%20Spirit%20in%201992.%20The%20airline%20had%20been%20struggling%20financially%20for%20years%20and%20had%20filed%20for%20bankruptc "HTTP/1.1 200 OK"
+2026-05-03 16:39:56,159 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AOPEC%2B%20announces%20symbolic%20oil%20output%20rise%20during%20Strait%20of%20Hormuz%20closure%0AZXQPART1ZXQ%0AThe%20seven%20major%20producers%2C%20including%20Saudi%20Arabia%2C%20will%20add%20188%2C000%20barrels%20per%20day%20to%20their%20total%20production%20quota%20for%20June.%20OPEC%2B%20has%20agreed%20to%20a%20modest%2C%20largely%20symbolic%20oil%20output%20increase%20for%20June%20as%20the%20United%20States-Israel%20war%20on%20Iran.%20The%20move%20is%20designed%20to%20show%20the%20group%20is%20ready%20to%20raise%20supplies%20once%20the%20war%20stops%20and%20signals%20that.%20Top%20OPEC%2B%20producer%20Saudi%20Arabia%E2%80%99s%20quota%20will%20rise%20to%2010.291%20million%20barrels%20per%20day%20%28bpd%29%20in%20June%20under%20the%20%E2%81%A0%E2%81%A0agreement.%20ZXQPART2ZXQ%0AThe%20seven%20major%20producers%2C%20including%20Saudi%20Arabia%2C%20will%20add%20188%2C000%20barrels%20per%20day%20to%20their%20total%20production%20quota%20for%20June%2C%20the%20organisation%20says.%20OPEC%2B%20has%20agreed%20to%20a%20modest%2C%20largely%20symbolic%20oil%20output%20increase%20for%20June%20as%20the%20United%20States-Israel%20war%20on%20Iran%20disrupts%20Gulf%20supplies%20through%20the%20Strait%20of%20Hormuz.%20%E2%80%9CIn%20their%20collective%20commitment%20to%20support%20oil%20market%20stability%2C%20the%20seven%20participating%20countries%20decided%20to%20implement%20a%20production%20adjustment%20of%20188%20thousand%20barrels%20per%20day%2C%E2%80%9D%20OPEC%2B%20said%20in%20a%20statement%2C%20making%20no%20mention%20of%20the%20United%20Arab%20Emirates%2C%20which%20quit%20the%20body%20on%20Friday%20. "HTTP/1.1 200 OK"
+2026-05-03 16:39:57,438 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=%E2%80%9CThe%20seven%20OPEC%2B%20countries%20also%20noted%20that%20this%20measure%20will%20provide%20an%20opportunity%20for%20the%20participating%20countries%20to%20accelerate%20their%20compensation.%E2%80%9D%20The%20statement%20was%20issued%20after%20the%20seven%20countries%20%E2%80%93%20Algeria%2C%20Iraq%2C%20Kazakhstan%2C%20Kuwait%2C%20Oman%2C%20Russia%20and%20Saudi%20Arabia%20%E2%80%93%20met%20virtually%20on%20Sunday%20to%20%E2%80%9Creview%20global%20market%20conditions%20and%20outlook%E2%80%9D.%20The%20move%20is%20designed%20to%20show%20the%20group%20is%20ready%20to%20raise%20supplies%20once%20the%20war%20stops%20and%20signals%20that%20OPEC%2B%20is%20pressing%20on%20with%20%E2%80%8C%E2%80%8Ca%20business-as-usual%20approach%20despite%20the%20departure%20of%20the%20UAE%2C%20OPEC%2B%20sources%20said%2C%20according%20to%20the%20Reuters%20news%20agency.%20Top%20OPEC%2B%20producer%20Saudi%20Arabia%E2%80%99s%20quota%20will%20rise%20to%2010.291%20million%20barrels%20per%20day%20%28bpd%29%20in%20June%20under%20the%20%E2%81%A0%E2%81%A0agreement%2C%20far%20above%20actual%20production.%20The%20kingdom%20reported%20actual%20production%20of%207.76%20million%20bpd%20to%20OPEC%20%E2%81%A0%E2%81%A0in%20March.%20OPEC%2B%20has%2021%20members%2C%20including%20Iran.%20But%20in%20recent%20years%2C%20only%20the%20seven%20nations%20plus%20the%20UAE%20have%20been%20involved%20in%20monthly%20production%20decisions.%20The%20UAE%2C%20one%20of%20the%20world%E2%80%99s%20top%20producers%2C%20announced%20on%20Tuesday%20that%20it%20would%20withdraw%20from%20the%20Organization%20of%20the%20Petroleum%20Exporting%20Countries%20and%20the%20expanded%20OPEC%2B%20group%20after%20chafing%20at%20their%20production%20quotas.%20Neither%20g "HTTP/1.1 200 OK"
+2026-05-03 16:39:57,482 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for Kommersant
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:39:57,920 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:39:58,037 INFO [httpx] HTTP Request: GET https://rss.dw.com/rdf/rss-en-all "HTTP/1.1 200 OK"
+2026-05-03 16:39:58,061 INFO [httpx] HTTP Request: GET https://rss.dw.com/rdf/rss-en-all "HTTP/1.1 200 OK"
+2026-05-03 16:39:58,543 INFO [httpx] HTTP Request: GET https://www.france24.com/en/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:58,573 INFO [httpx] HTTP Request: GET https://www.france24.com/en/rss "HTTP/1.1 200 OK"
+2026-05-03 16:39:58,702 INFO [httpx] HTTP Request: GET https://www.france24.com/en/asia-pacific/20260503-the-week-in-pictures-may-day-marches-king-charles-in-bermuda-and-mali-s-rebel-push "HTTP/1.1 200 OK"
+2026-05-03 16:39:58,703 INFO [httpx] HTTP Request: GET https://www.france24.com/en/asia-pacific/20260503-the-week-in-pictures-may-day-marches-king-charles-in-bermuda-and-mali-s-rebel-push "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,018 INFO [httpx] HTTP Request: GET https://www.france24.com/en/middle-east/20260503-two-foreign-activists-seized-from-gaza-aid-flotilla-appear-before-israeli-court "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,037 INFO [httpx] HTTP Request: GET https://www.france24.com/en/middle-east/20260503-two-foreign-activists-seized-from-gaza-aid-flotilla-appear-before-israeli-court "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,064 INFO [httpx] HTTP Request: GET https://www.france24.com/en/inflation-surging-past-50-in-iran "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,074 INFO [httpx] HTTP Request: GET https://www.france24.com/en/inflation-surging-past-50-in-iran "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,120 INFO [httpx] HTTP Request: GET https://www.france24.com/en/iranian-nobel-laureate-narges-mohammadi-hospitalised "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,132 INFO [httpx] HTTP Request: GET https://www.france24.com/en/iranian-nobel-laureate-narges-mohammadi-hospitalised "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,195 INFO [httpx] HTTP Request: GET https://www.france24.com/en/new-iranian-proposal-to-end-the-war-under-examination "HTTP/1.1 200 OK"
+2026-05-03 16:39:59,204 INFO [httpx] HTTP Request: GET https://www.france24.com/en/new-iranian-proposal-to-end-the-war-under-examination "HTTP/1.1 200 OK"
+2026-05-03 16:40:01,549 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AThe%20week%20in%20pictures%3A%20May%20Day%20marches%2C%20King%20Charles%20in%20Bermuda%20and%20Mali%27s%20rebel%20push%0AZXQPART1ZXQ%0AWorkers%20across%20the%20world%20marched%20against%20the%20rising%20cost%20of%20living%2C%20King%20Charles%20III%20became%20the%20first%20reigning%20British%20king.%20Issued%20on%3A%2003%2F05%2F2026%20-%2014%3A46%20Modified%3A%2003%2F05%2F2026%20-%2015%3A25%20France%2024%20is%20not%20responsible%20for%20the%20content%20of%20external%20websites.%20Audience%20ratings%20certified%20by%20ACPM.%20ACPM%20The%20content%20you%20requested%20does%20not%20exist%20or%20is%20not%20available%20anymore.%20ZXQPART2ZXQ%0AWorkers%20across%20the%20world%20marched%20against%20the%20rising%20cost%20of%20living%2C%20King%20Charles%20III%20became%20the%20first%20reigning%20British%20king%20to%20visit%20the%20territory%20of%20Bermuda%20and%20Mali%20mourned%20the%20killing%20of%20defence%20minister%20Sadio%20Camara%20as%20a%20joint%20jihadist-separatist%20offensive%20shook%20the%20state%3A%20FRANCE%2024%20looks%20back%20at%20some%20of%20the%20week%27s%20most%20striking%20images.%20Issued%20on%3A%2003%2F05%2F2026%20-%2014%3A46%20Modified%3A%2003%2F05%2F2026%20-%2015%3A25%20France%2024%20is%20not%20responsible%20for%20the%20content%20of%20external%20websites.%20Audience%20ratings%20certified%20by%20ACPM.%20ACPM%20The%20content%20you%20requested%20does%20not%20exist%20or%20is%20not%20available%20anymore. "HTTP/1.1 200 OK"
+2026-05-03 16:40:03,676 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AInflation%20surging%20past%2050%25%20in%20Iran%0AZXQPART1ZXQ%0AOne%20of%20your%20browser%20extensions%20seems%20to%20be%20blocking%20the%20video%20player%20from%20loading.%20To%20watch%20this%20content%2C%20you%20may%20need%20to%20disable%20it%20on%20this%20site.%20The%20fragile%20ceasefire%20may%20have%20paused%20the%20fighting%2C%20but%20the%20economic%20fallout%20in%20Iran%20continues.%20A%20US%20naval%20blockade%20of%20Iranian%20ports%20has%20sharply%20reduced%20the%20Iran%E2%80%99s%20oil%20exports%2C%20while%20the%20cost%20of%20everyday%20goods.%20ZXQPART2ZXQ%0AOne%20of%20your%20browser%20extensions%20seems%20to%20be%20blocking%20the%20video%20player%20from%20loading.%20To%20watch%20this%20content%2C%20you%20may%20need%20to%20disable%20it%20on%20this%20site.%20The%20fragile%20ceasefire%20may%20have%20paused%20the%20fighting%2C%20but%20the%20economic%20fallout%20in%20Iran%20continues.%20A%20US%20naval%20blockade%20of%20Iranian%20ports%20has%20sharply%20reduced%20the%20Iran%E2%80%99s%20oil%20exports%2C%20while%20the%20cost%20of%20everyday%20goods%20has%20continued%20to%20rise.%20Across%20the%20country%2C%20people%20are%20now%20bracing%20for%20further%20price%20increases%20and%20growing%20job%20losses.Liza%20Kaminov%20reports.%20France%2024%20is%20not%20responsible%20for%20the%20content%20of%20external%20websites.%20Audience%20ratings%20certified%20by%20ACPM.%20ACPM%20The%20content%20you%20requested%20does%20not%20exist%20or%20is%20not%20available%20anymore. "HTTP/1.1 200 OK"
+2026-05-03 16:40:06,272 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AIranian%20Nobel%20laureate%20Narges%20Mohammadi%20hospitalised%0AZXQPART1ZXQ%0AOne%20of%20your%20browser%20extensions%20seems%20to%20be%20blocking%20the%20video%20player%20from%20loading.%20To%20watch%20this%20content%2C%20you%20may%20need%20to%20disable%20it%20on%20this%20site.%20Issued%20on%3A%2003%2F05%2F2026%20-%2010%3A39%20Modified%3A%2003%2F05%2F2026%20-%2012%3A17%20Iran%E2%80%99s%20imprisoned%20Nobel%20Peace%20Prize%20laureate%20Narges%20Mohammadi%20has%20been%20urgently.%20She%20reportedly%20fainted%20twice%20on%20Friday.%20ZXQPART2ZXQ%0AOne%20of%20your%20browser%20extensions%20seems%20to%20be%20blocking%20the%20video%20player%20from%20loading.%20To%20watch%20this%20content%2C%20you%20may%20need%20to%20disable%20it%20on%20this%20site.%20Issued%20on%3A%2003%2F05%2F2026%20-%2010%3A39%20Modified%3A%2003%2F05%2F2026%20-%2012%3A17%20Iran%E2%80%99s%20imprisoned%20Nobel%20Peace%20Prize%20laureate%20Narges%20Mohammadi%20has%20been%20urgently%20transferred%20from%20prison%20to%20hospital%20after%20what%20her%20foundation%20described%20as%20a%20severe%20deterioration%20in%20her%20health.%20She%20reportedly%20fainted%20twice%20on%20Friday.%20The%20incident%20follows%20a%20suspected%20heart%20attack%20in%20late%20March%2C%20raising%20growing%20concern%20among%20her%20supporters%20over%20her%20worsening%20condition.%20France%2024%20is%20not%20responsible%20for%20the%20content%20of%20external%20websites.%20Audience%20ratings%20certified%20by%20ACPM.%20ACPM%20The%20content%20you%20requested%20does%20not%20exist%20or%20is%20not%20available%20anymore. "HTTP/1.1 200 OK"
+2026-05-03 16:40:08,727 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ANew%20Iranian%20proposal%20to%20end%20the%20war%20under%20examination%0AZXQPART1ZXQ%0AOne%20of%20your%20browser%20extensions%20seems%20to%20be%20blocking%20the%20video%20player%20from%20loading.%20To%20watch%20this%20content%2C%20you%20may%20need%20to%20disable%20it%20on%20this%20site.%20A%20senior%20Iranian%20officer%20on%20Saturday%20said%20that%20fresh%20fighting%20with%20the%20United%20States%20is%20%E2%80%9Clikely%E2%80%9D%2C%20underscoring%20rising%20tensions%20after.%20Daniel%20Quinlan%20reports.%20ZXQPART2ZXQ%0AOne%20of%20your%20browser%20extensions%20seems%20to%20be%20blocking%20the%20video%20player%20from%20loading.%20To%20watch%20this%20content%2C%20you%20may%20need%20to%20disable%20it%20on%20this%20site.%20A%20senior%20Iranian%20officer%20on%20Saturday%20said%20that%20fresh%20fighting%20with%20the%20United%20States%20is%20%E2%80%9Clikely%E2%80%9D%2C%20underscoring%20rising%20tensions%20after%20President%20Donald%20Trump%20dismissed%20Tehran%E2%80%99s%20latest%20negotiating%20proposal%20and%20issued%20fresh%20threats%20to%20attack%20the%20country.%20Daniel%20Quinlan%20reports.%20France%2024%20is%20not%20responsible%20for%20the%20content%20of%20external%20websites.%20Audience%20ratings%20certified%20by%20ACPM.%20ACPM%20The%20content%20you%20requested%20does%20not%20exist%20or%20is%20not%20available%20anymore. "HTTP/1.1 200 OK"
+2026-05-03 16:40:11,509 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ATwo%20foreign%20activists%20seized%20from%20Gaza%20aid%20flotilla%20appear%20before%20Israeli%20court%0AZXQPART1ZXQ%0ASpanish%20national%20Saif%20Abu%20Keshek%20and%20Brazilian%20Thiago%20Avila%20were%20brought%20before%20an%20Israeli%20court%20Sunday%20after%20Israeli%20troops%20seized.%20Avila%20told%20his%20lawyers%20that%20he%20had%20been%20beaten%20so%20badly%20in%20Israeli%20custody%20that%20he%20passed%20out%20twice.%20Issued%20on%3A%2003%2F05%2F2026%20-%2010%3A36%20Modified%3A%2003%2F05%2F2026%20-%2015%3A38%20An%20Israeli%20court%20Sunday%20extended%20by%20two%20days%20the%20detention.%20The%20flotilla%20of%20more%20than%2050%20vessels%20had%20set%20sail%20from%20France%20%2C%20Spain%20and%20Italy%20with%20the%20aim.%20ZXQPART2ZXQ%0ASpanish%20national%20Saif%20Abu%20Keshek%20and%20Brazilian%20Thiago%20Avila%20were%20brought%20before%20an%20Israeli%20court%20Sunday%20after%20Israeli%20troops%20seized%20them%20from%20a%20flotilla%20attempting%20to%20bring%20humanitarian%20aid%20to%20the%20besieged%20Gaza%20Strip.%20Avila%20told%20his%20lawyers%20that%20he%20had%20been%20beaten%20so%20badly%20in%20Israeli%20custody%20that%20he%20passed%20out%20twice.%20Issued%20on%3A%2003%2F05%2F2026%20-%2010%3A36%20Modified%3A%2003%2F05%2F2026%20-%2015%3A38%20An%20Israeli%20court%20Sunday%20extended%20by%20two%20days%20the%20detention%20of%20two%20foreign%20activists%20from%20a%20Gaza-bound%20flotilla%2C%20who%20were%20brought%20to%20Israel%20for%20interrogation%20%2C%20a%20rights%20group%20representing%20them%20said. "HTTP/1.1 200 OK"
+2026-05-03 16:40:12,414 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20flotilla%20of%20more%20than%2050%20vessels%20had%20set%20sail%20from%20France%20%2C%20Spain%20and%20Italy%20with%20the%20aim%20of%20breaking%20an%20Israeli%20blockade%20of%20Gaza%20and%20bringing%20humanitarian%20supplies%20to%20the%20devastated%20Palestinian%20territory%20.%20They%20were%20intercepted%20by%20Israeli%20forces%20in%20international%20waters%20off%20Greece%20early%20on%20Thursday%2C%20with%20Israel%20saying%20it%20had%20removed%20some%20175%20activists%20%E2%80%93%20two%20of%20whom%20were%20taken%20to%20Israel%20for%20questioning.%20Read%20more%20%27Collective%20punishment%27%3A%20MSF%20says%20Israel%20is%20weaponising%20water%20access%20in%20Gaza%20Spanish%20national%20Saif%20Abu%20Keshek%20and%20Brazilian%20Thiago%20Avila%20appeared%20before%20a%20court%20in%20the%20southern%20city%20of%20Ashkelon%20on%20Sunday.%20AFP%20footage%20showed%20the%20two%20being%20escorted%20into%20the%20courtroom%2C%20with%20Avila%27s%20hands%20cuffed%20behind%20his%20back%20and%20Abu%20Keshek%27s%20feet%20shackled.%20%22The%20court%20extended%20their%20detention%20by%20two%20days%2C%22%20Miriam%20Azem%2C%20international%20advocacy%20coordinator%20at%20the%20rights%20group%20Adalah%2C%20told%20AFP.%20Adalah%20said%20the%20state%20attorney%20had%20presented%20a%20list%20of%20suspected%20offences%20committed%20by%20the%20pair%2C%20including%20%22assisting%20the%20enemy%20during%20wartime%22%20and%20%22membership%20in%20and%20providing%20services%20to%20a%20terrorist%20organisation%22. "HTTP/1.1 200 OK"
+2026-05-03 16:40:13,069 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=But%20Adalah%27s%20lawyers%20challenged%20the%20state%27s%20jurisdiction%2C%20arguing%20against%20the%20%22unlawful%20abduction%22%20of%20the%20two%20ac "HTTP/1.1 200 OK"
+2026-05-03 16:40:13,106 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for N+1
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:40:13,635 INFO [httpx] HTTP Request: GET https://www.theverge.com/rss/index.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:13,642 INFO [httpx] HTTP Request: GET https://www.theverge.com/rss/index.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:14,048 INFO [httpx] HTTP Request: GET https://habr.com/ru/rss/news/?fl=ru "HTTP/1.1 200 OK"
+2026-05-03 16:40:14,149 INFO [httpx] HTTP Request: GET https://www.espn.com/espn/rss/news "HTTP/1.1 202 Accepted"
+2026-05-03 16:40:14,159 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for ESPN
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 253, in parse_feed
+    return self._parse_feed_with_selectolax(xml_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 265, in _parse_feed_with_selectolax
+    from selectolax.parser import HTMLParser
+ModuleNotFoundError: No module named 'selectolax'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 103, in _ingest_source
+    items = self.parse_feed(xml_bytes)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 255, in parse_feed
+    return self._parse_feed_with_elementtree(xml_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 258, in _parse_feed_with_elementtree
+    root = ET.fromstring(xml_bytes.lstrip(b"\xef\xbb\xbf"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\xml\etree\ElementTree.py", line 1351, in XML
+    return parser.close()
+           ^^^^^^^^^^^^^^
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+2026-05-03 16:40:14,162 INFO [httpx] HTTP Request: GET https://www.espn.com/espn/rss/news "HTTP/1.1 202 Accepted"
+2026-05-03 16:40:14,166 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for ESPN
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 253, in parse_feed
+    return self._parse_feed_with_selectolax(xml_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 265, in _parse_feed_with_selectolax
+    from selectolax.parser import HTMLParser
+ModuleNotFoundError: No module named 'selectolax'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 103, in _ingest_source
+    items = self.parse_feed(xml_bytes)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 255, in parse_feed
+    return self._parse_feed_with_elementtree(xml_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 258, in _parse_feed_with_elementtree
+    root = ET.fromstring(xml_bytes.lstrip(b"\xef\xbb\xbf"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\xml\etree\ElementTree.py", line 1351, in XML
+    return parser.close()
+           ^^^^^^^^^^^^^^
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+2026-05-03 16:40:14,743 INFO [httpx] HTTP Request: GET https://www.sciencedaily.com/rss/top.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:14,781 INFO [httpx] HTTP Request: GET https://www.championat.com/rss/news/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:15,410 INFO [httpx] HTTP Request: GET https://www.technologyreview.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:15,634 INFO [httpx] HTTP Request: GET https://www.vedomosti.ru/rss/news "HTTP/1.1 200 OK"
+2026-05-03 16:40:16,330 INFO [httpx] HTTP Request: GET https://www.cnews.ru/inc/rss/news.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:16,348 INFO [httpx] HTTP Request: GET https://www.artificialintelligence-news.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:17,000 INFO [httpx] HTTP Request: GET https://techcrunch.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:17,075 INFO [httpx] HTTP Request: GET https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:19,944 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AThis%20tiny%2C%20magnetic%20e-reader%20could%20stop%20you%20from%20doomscrolling%20%7C%20TechCrunch%0AZXQPART1ZXQ%0AIt%20was%20love%20at%20first%20sight.%20It%20felt%20like%20scouring%20the%20mall%2C%20dipping%20in%20and%20out%20of%20sprawling%20department%20stores%20in%20search%20of%20a%20specific%2C%20elusive.%20Only%2C%20I%20didn%E2%80%99t%20even%20know%20I%20was%20searching%20for%20something%20like%20the%20Xteink%20X3%20%2C%20because%20I%20never%20dared%20dream.%20This%20was%20it.%20ZXQPART2ZXQ%0AIt%20was%20love%20at%20first%20sight.%20It%20felt%20like%20scouring%20the%20mall%2C%20dipping%20in%20and%20out%20of%20sprawling%20department%20stores%20in%20search%20of%20a%20specific%2C%20elusive%20item%2C%20only%20to%20finally%20find%20what%20you%E2%80%99re%20looking%20for.%20Only%2C%20I%20didn%E2%80%99t%20even%20know%20I%20was%20searching%20for%20something%20like%20the%20Xteink%20X3%20%2C%20because%20I%20never%20dared%20dream%20of%20something%20so%20delightful%3A%20a%20tiny%2C%20MagSafe-compatible%20e-ink%20reader%20that%20could%20attach%20to%20my%20iPhone%20like%20a%20Pop%20Socket.%20This%20was%20it.%20My%20life%20would%20change%20forever.%20I%20would%20get%20my%20hands%20on%20the%20Xteink%20X3%2C%20and%20I%20would%20stop%20doomscrolling%20forever.%20I%20would%20read%20more%20books%20than%20ever%20before%E2%80%A6%20which%20is%20saying%20something%2C%20since%20%E2%80%93%20brag%20%E2%80%93%20I%20read%20at%20least%2050%20books%20a%20year.%20But%20%E2%80%93%20not%20a%20brag%20%E2%80%93%20I%20probably%20spend%20even%20more%20time%20on%20social%20media%20than%20I%20do%20reading. "HTTP/1.1 200 OK"
+2026-05-03 16:40:21,054 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=I%20know%20that%20I%20feel%20generally%20less%20anxious%20when%20I%20limit%20my%20social%20media%20time%2C%20but%20alas%2C%20the%20siren%20song%20of%20TikTok%20beckons%20me.%20What%20if%20instead%20of%20opening%20social%20media%2C%20I%20could%20just%20flip%20my%20phone%20over%20and%20read%20on%20a%20tiny%2C%20Kindle-like%20e-ink%20screen%3F%20Could%20this%20%2480%20gadget%20fix%20me%3F%20I%E2%80%99ve%20tried%20reading%20books%20%28%E2%80%A6%20or%20downloads%20from%20AO3%20%29%20on%20my%20phone%2C%20immersing%20myself%20in%20a%20fictional%20world%2C%20rather%20than%20posts%20from%20the%20president%20in%20which%20he%20threatens%20to%20obliterate%20an%20entire%20country%20.%20But%20something%20about%20looking%20at%20my%20phone%2C%20where%20I%E2%80%99m%20constantly%20tempted%20to%20open%20Instagram%20to%20see%20whatever%20Reel%20someone%20sent%20me%2C%20doesn%E2%80%99t%20quite%20soothe%20me%20the%20way%20that%20a%20book%20or%20an%20e-ink%20device%20like%20a%20Kindle%20does.%20I%20was%20so%20excited%20for%20my%20X3%20to%20arrive%20that%20I%20constantly%20refreshed%20the%20tracking%20link%20until%20finally%2C%20it%20was%20delivered.%20Even%20though%20I%20had%20meticulously%20compared%20the%20dimensions%20of%20the%20X3%20to%20my%20iPhone%2016%2C%20or%20my%20Pop%20Socket%20wallet%2C%20I%20still%20worried%20it%20might%20not%20fit%20%E2%80%93%20the%20previous%20model%2C%20the%20Xteink%20X4%20%28basically%20the%20same%20device%20but%20a%20little%20bigger%29%20only%20fit%20on%20larger%20phones%20like%20the%20iPho "HTTP/1.1 200 OK"
+2026-05-03 16:40:21,093 INFO [httpx] HTTP Request: GET https://vc.ru/rss/all "HTTP/1.1 200 OK"
+2026-05-03 16:40:21,550 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/world/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:21,598 INFO [httpx] HTTP Request: GET https://venturebeat.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:40:21,651 INFO [httpx] HTTP Request: GET https://feeds.bbci.co.uk/news/technology/rss.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:22,162 INFO [httpx] HTTP Request: GET https://www.coindesk.com/arc/outboundfeeds/rss "HTTP/1.1 200 OK"
+2026-05-03 16:40:22,703 INFO [httpx] HTTP Request: GET https://www.coindesk.com/business/2026/05/03/mike-cagney-s-second-act-turning-blockchain-into-wall-street-s-new-plumbing "HTTP/1.1 200 OK"
+2026-05-03 16:40:25,085 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AFigure%E2%80%99s%20%241%20billion%20month%20signals%20breakout%20moment%20for%20tokenized%20credit%0AZXQPART1ZXQ%0AMike%20Cagney%20has%20been%20here%20before%2C%20just%20not%20with%20blockchain.%20In%20the%20early%202010s%2C%20he%20helped%20reshape%20consumer%20lending%20with%20SoFi%20by%20connecting%20borrowers%20directly%20with%20capital.%20Now%2C%20at%20Figure%20Technology%20Solutions%20%28FIGR%29%2C%20he%20said%20he%E2%80%99s%20trying%20to%20do%20something%20similar%20on%20a%20much%20larger%20scale%3A%20rebuild.%20The%20plan%20may%20be%20working.%20ZXQPART2ZXQ%0AMike%20Cagney%20has%20been%20here%20before%2C%20just%20not%20with%20blockchain.%20In%20the%20early%202010s%2C%20he%20helped%20reshape%20consumer%20lending%20with%20SoFi%20by%20connecting%20borrowers%20directly%20with%20capital.%20Now%2C%20at%20Figure%20Technology%20Solutions%20%28FIGR%29%2C%20he%20said%20he%E2%80%99s%20trying%20to%20do%20something%20similar%20on%20a%20much%20larger%20scale%3A%20rebuild%20the%20infrastructure%20of%20credit%20markets%20themselves.%20The%20plan%20may%20be%20working.%20Figure%20crossed%20%241%20billion%20in%20monthly%20loan%20originations%20for%20the%20first%20time%20in%20March%2C%20part%20of%20a%20%242.9%20billion%20first%20quarter%20that%20puts%20the%20firm%20on%20roughly%20%2412%20billion%20in%20annualized%20volume.%20Cagney%2C%20who%20is%20speaking%20at%20Consensus%20Miami%20conference%20next%20week%2C%20told%20CoinDesk%20that%20the%20goal%20is%20to%20build%20new%20plumbing%20for%20these%20markets. "HTTP/1.1 200 OK"
+2026-05-03 16:40:26,318 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=%E2%80%9CWe%E2%80%99re%20building%20a%20marketplace%20where%20credit%20can%20move%20efficiently%2C%20without%20all%20the%20traditional%20layers%2C%E2%80%9D%20he%20said.%20Cagney%20broke%20Figure%E2%80%99s%20model%20into%20three%20core%20advantages.%20The%20first%20is%20cost.%20Tokenizing%20loans%20reduces%20the%20friction%20and%20expense%20of%20securitization%2C%20cutting%20out%20intermediaries%20that%20have%20historically%20taken%20significant%20fees.%20The%20second%20is%20liquidity.%20Figure%20has%20built%20what%20it%20describes%20as%20one%20of%20the%20only%20continuously%20updating%20marketplaces%20for%20consumer%20credit%20outside%20of%20government-backed%20mortgage%20systems%20like%20Fannie%20Mae%20and%20Freddie%20Mac.%20%E2%80%9CThe%20loans%20update%20in%20real%20time%2C%20which%20creates%20a%20different%20kind%20of%20market%2C%E2%80%9D%20Cagney%20said.%20The%20third%20is%20access.%20By%20bringing%20these%20assets%20onchain%2C%20Figure%20can%20plug%20them%20into%20decentralized%20finance%20%28DeFi%29%2C%20allowing%20a%20broader%20range%20of%20investors%20to%20gain%20exposure%2C%20or%20borrow%20against%20them.%20That%E2%80%99s%20where%20the%20model%20starts%20to%20blur%20the%20line%20between%20traditional%20finance%20and%20crypto%2C%20Cagney%20said.%20Figure%E2%80%99s%20latest%20push%20is%20into%20what%20Cagney%20calls%20%E2%80%9Cdemocratized%20prime%2C%22%20essentially%20opening%20up%20prime%20brokerage-style%20lending%20to%20a%20wider%20audience.%20Through%20products%20like%20its%20Forge%20platform%2C%20loans "HTTP/1.1 200 OK"
+2026-05-03 16:40:26,360 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for ScienceDaily
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:40:26,776 INFO [httpx] HTTP Request: GET https://cointelegraph.com/rss "HTTP/1.1 200 OK"
+2026-05-03 16:40:26,780 INFO [httpx] HTTP Request: GET https://www.technologyreview.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:26,909 INFO [httpx] HTTP Request: GET https://cointelegraph.com/news/americans-distrust-crypto-ai-as-industry-super-pacs-flood-midterms-poll-finds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound "HTTP/1.1 200 OK"
+2026-05-03 16:40:30,162 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ACrypto%2C%20AI%20Super%20PACs%20Flood%20Midterms%20As%20Poll%20Finds%20Most%20Americans%20Distrust%20Both%20Industries%0AZXQPART1ZXQ%0AA%20new%20Politico%20poll%20finds%20most%20Americans%20distrust%20crypto%20and%20AI%2C%20raising%20questions%20about%20whether%20candidates%20backed%20by%20industry%20super.%20Crypto%20and%20AI%20industry%20groups%20are%20pumping%20tens%20of%20millions%20of%20dollars%20into%20the%202026%20midterm%20elections%2C%20but%20a%20new.%2045%25%20of%20Americans%20say%20investing%20in%20cryptocurrency%20is%20not%20worth%20the%20risk%20and%2044%25%20say%20AI%20is%20developing%20too%20fast.%20The%20survey%20also%20found%20that%20narly%20half%20trust%20a%20traditional%20bank%20over%20a%20crypto%20platform%2C%20and%20two-thirds%20want%20Congress%20to.%20ZXQPART2ZXQ%0AA%20new%20Politico%20poll%20finds%20most%20Americans%20distrust%20crypto%20and%20AI%2C%20raising%20questions%20about%20whether%20candidates%20backed%20by%20industry%20super%20PACs%20could%20face%20voter%20backlash.%20Crypto%20and%20AI%20industry%20groups%20are%20pumping%20tens%20of%20millions%20of%20dollars%20into%20the%202026%20midterm%20elections%2C%20but%20a%20new%20poll%20shows%20most%20Americans%20don%27t%20trust%20either%20industry.%2045%25%20of%20Americans%20say%20investing%20in%20cryptocurrency%20is%20not%20worth%20the%20risk%20and%2044%25%20say%20AI%20is%20developing%20too%20fast%2C%20according%20to%20an%20April%20survey%20by%20Public%20First%20for%20Politico. "HTTP/1.1 200 OK"
+2026-05-03 16:40:31,139 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20survey%20also%20found%20that%20narly%20half%20trust%20a%20traditional%20bank%20over%20a%20crypto%20platform%2C%20and%20two-thirds%20want%20Congress%20to%20impose%20strict%20regulations%20or%20broad%20oversight%20principles%20on%20AI.%20The%20numbers%20spell%20trouble%20for%20candidates%20taking%20money%20from%20industry-aligned%20super%20PACs.%20In%20hypothetical%20matchups%2C%20poll%20respondents%20were%20far%20less%20likely%20to%20back%20candidates%20supported%20by%20groups%20pushing%20looser%20AI%20regulations%20than%20those%20backed%20by%20groups%20calling%20for%20tighter%20tech%20rules.%20%E2%80%9CSkepticism%20of%20the%20industries%2C%20those%20results%20suggest%2C%20could%20turn%20into%20voter%20backlash%20if%20Americans%20grow%20fed%20up%20with%20the%20heavy%20spending%2C%E2%80%9D%20the%20report%20said.%20The%20poll%20was%20conducted%20between%20April%2011%20and%2014%2C%20surveying%202%2C035%20US%20adults%20online.%20Results%20were%20weighted%20by%20age%2C%20race%2C%20gender%2C%20geography%20and%20educational%20attainment%2C%20with%20an%20overall%20margin%20of%20sampling%20error%20of%20%C2%B12.2%20percentage%20points.%20Related%3A%20White%20House%20confirms%20Trump%20to%20address%20memecoin%20gala%20on%20Saturday%20Pro-AI%20super%20PAC%20Leading%20the%20Future%2C%20which%20launched%20in%20August%202025%2C%20has%20raised%20more%20than%20%2475%20million%20and%20deployed%20funds%20in%20primaries%20across%20North%20Carolina%2C%20Texas%2C%20Illinois%20and%20New%20York. "HTTP/1.1 200 OK"
+2026-05-03 16:40:32,213 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Fairshake%2C%20the%20pro-crypto%20PAC%20backed%20by%20Coinbase%2C%20Andreessen%20Horowitz%20and%20Ripple%20Labs%2C%20has%20already%20spent%20%2428%20million%20across%20competitive%20primaries.%20Both%20industries%20are%20also%20spending%20heavily%20on "HTTP/1.1 200 OK"
+2026-05-03 16:40:32,628 INFO [httpx] HTTP Request: GET https://decrypt.co/feed "HTTP/1.1 200 OK"
+2026-05-03 16:40:33,503 INFO [httpx] HTTP Request: GET https://www.polygon.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:33,697 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for NYTimes World
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:40:33,820 INFO [httpx] HTTP Request: GET https://www.polygon.com/50-years-ago-marvels-the-eternals-made-their-debut/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:34,177 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:34,282 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/Business.xml "HTTP/1.1 200 OK"
+2026-05-03 16:40:34,398 INFO [httpx] HTTP Request: GET https://www.polygon.com/saros-housemarque-interview/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:34,406 INFO [httpx] HTTP Request: GET https://www.polygon.com/mandalorian-and-grogu-movie-villain-commander-coin-identity-star-wars/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:34,683 INFO [httpx] HTTP Request: GET https://www.polygon.com/imagine-dragons-last-flag-future-updates/ "HTTP/1.1 200 OK"
+2026-05-03 16:40:37,737 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0A50%20years%20ago%2C%20Marvel%27s%20most%20overlooked%20superhero%20team%20made%20their%20debut%20%E2%80%94%20and%20changed%20superheroes%20forever%0AZXQPART1ZXQ%0AAnd%20one%20of%20the%20strangest%20teams%20of%20the%20Marvel%20Universe%20was%20born%20After%20co-creating%20many%20of%20Marvel%27s%20most%20popular%20characters.%20There%2C%20Kirby%20began%20work%20on%20his%20passion%20project%2C%20The%20Fourth%20World%20%2C%20a%20tale%20of%20gods%20that%20have%20walked%20largely.%20When%20that%20project%20fizzled%20out%20at%20DC%2C%20he%20returned%20to%20Marvel%20in%201976.%20Shortly%20thereafter%2C%20The%20Eternals%20were%20born.%20ZXQPART2ZXQ%0AAnd%20one%20of%20the%20strangest%20teams%20of%20the%20Marvel%20Universe%20was%20born%20After%20co-creating%20many%20of%20Marvel%27s%20most%20popular%20characters%20%28Captain%20America%2C%20Thor%2C%20the%20Hulk%2C%20the%20X-Men%2C%20the%20list%20goes%20on%29%2C%20a%20creatively%20frustrated%20Jack%20Kirby%20left%20the%20company%20in%201970%20for%20its%20chief%20rival%2C%20DC%20Comics.%20There%2C%20Kirby%20began%20work%20on%20his%20passion%20project%2C%20The%20Fourth%20World%20%2C%20a%20tale%20of%20gods%20that%20have%20walked%20largely%20unnoticed%20alongside%20humanity%20throughout%20the%20ages.%20When%20that%20project%20fizzled%20out%20at%20DC%2C%20he%20returned%20to%20Marvel%20in%201976.%20Shortly%20thereafter%2C%20The%20Eternals%20were%20born.%20Issue%20%231%20hit%20stands%2050%20years%20ago%20in%20April%201976.%20The%20Eternals%20would%20carry%20many%20of%20the%20same%20themes%20as%20The%20Fourth%20World%20%E2%80%99s%20New%20Gods. "HTTP/1.1 200 OK"
+2026-05-03 16:40:39,029 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Both%20titles%20have%20enormous%2C%20history-altering%20scope%2C%20and%20both%20follow%20pantheons%20whose%20ancient%20rivalries%20threaten%20the%20modern%20world.%20Both%20are%20grounded%20in%20a%20mix%20of%20mythology%20and%20science%20fiction%2C%20and%20both%20feature%20characters%20with%20clear%20symbolic%20counterparts%20%28in%20The%20Eternals%2C%20Sersi%20is%20a%20stand-in%20for%20the%20Greek%20Circe%2C%20The%20New%20Gods%E2%80%99%20Orion%20bears%20strong%20similarity%20to%20the%20Greek%20Ares%2C%20etc.%29%20Still%2C%20there%20are%20plenty%20of%20differences%20between%20the%20two%20books.%20The%20Eternals%20centered%20on%20an%20omnipotent%20race%20of%20superheroes%20engineered%20by%20god-like%20alien%20beings%20called%20Celestials%2C%20world%20tinkerers%20who%20went%20on%20to%20be%20major%20players%20at%20Marvel%20.%20Unfortunately%2C%20The%20Eternals%20were%20fated%20to%20a%20similarly%20premature%20end%2C%20with%20the%20original%20series%20concluding%20with%20its%20nineteenth%20issue.%20There%20would%20be%20a%20number%20of%20attempted%20reboots%20over%20the%20years%2C%20but%20none%20have%20had%20much%20staying%20power.%20%28This%20is%20perhaps%20reflected%20in%20the%20response%20to%20Marvel%27s%20The%20Eternals%20movie%2C%20which%20remains%20one%20of%20the%20franchise%27s%20worst-rated%20movies.%29%20The%20Eternals%20may%20remain%20not-ready-for-primetime%20in%20the%20eyes%20of%20the%20world%2C%20but%20there%27s%20a%20lot%20to%20love%20about%20them%20that%20dates%20back%20to%20Kirby%27s%20first%20i "HTTP/1.1 200 OK"
+2026-05-03 16:40:41,391 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AI%20uncovered%20a%20few%20new%20clues%20about%20Mandalorian%20and%20Grogu%E2%80%99s%20mystery%20Star%20Wars%20villain%0AZXQPART1ZXQ%0AWe%20still%20don%27t%20know%20anything%20about%20the%20bad%20guy%20in%20the%20next%20Star%20Wars%20movie.%20That%27s%20weird%21%20Less%20than%20a%20month%20out%20from%20release%2C%20the%20plot%20of%20the%20next%20Star%20Wars%20movie%2C%20The%20Mandalorian%20and%20Grogu.%20We%20know%20the%20dynamic%20Disney%20Plus%20duo%20will%20work%20as%20bounty%20hunters%20for%20a%20New%20Republic%20military%20leader%20named%20Ward.%20ZXQPART2ZXQ%0AWe%20still%20don%27t%20know%20anything%20about%20the%20bad%20guy%20in%20the%20next%20Star%20Wars%20movie.%20That%27s%20weird%21%20Less%20than%20a%20month%20out%20from%20release%2C%20the%20plot%20of%20the%20next%20Star%20Wars%20movie%2C%20The%20Mandalorian%20and%20Grogu%20%2C%20remains%20a%20mystery.%20We%20know%20the%20dynamic%20Disney%20Plus%20duo%20will%20work%20as%20bounty%20hunters%20for%20a%20New%20Republic%20military%20leader%20named%20Ward%20%28Sigourney%20Weaver%29%20as%20they%20take%20out%20any%20surviving%20members%20of%20the%20Empire.%20And%20we%20know%20they%27ll%20team%20up%20with%20Rotta%20the%20Hutt%20%28voiced%20by%20Jeremy%20Allen%20White%29%20along%20the%20way.%20But%20we%20still%20have%20no%20idea%20who%20the%20villain%20of%20the%20movie%20will%20be%2C%20which%20is%20kind%20of%20weird%20when%20you%20remember%20that%20most%20Star%20Wars%20movies%20live%20or%20die%20by%20their%20villain.%20The%20original%20Star%20Wars%20had%20Darth%20Vader%2C%20and%20by%20the%20end%20of%20that%20trilogy%2C%20we%20had%20Emperor%20Palpatine%20as%20well. "HTTP/1.1 200 OK"
+2026-05-03 16:40:42,858 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20prequels%20introduced%20other%20iconic%20villains%20like%20Darth%20Maul%2C%20Count%20Dooku%2C%20and%20General%20Greivous%2C%20while%20the%20Disney-era%20sequels%20gave%20us%20Snoke%20and%20then%2C%20somehow%2C%20Palpatine%20yet%20again%20.%20But%20when%20it%20comes%20to%20The%20Mandalorian%20and%20Grogu%20%2C%20all%20we%20know%20about%20the%20movie%27s%20big%20bad%20is%20two%20words%3A%20Commander%20Coin.%20That%20pseudonym%20is%20revealed%20in%20the%20opening%2015%20minutes%20of%20the%20movie%20%2C%20which%20Polygon%20got%20to%20see%20at%20a%20press%20preview%20event%20in%20April.%20Early%20in%20the%20film%2C%20Ward%20tasks%20Mando%20and%20Grogu%20with%20tracking%20down%20this%20mysterious%20Imperial%20leader%2C%20whose%20identity%20and%20location%20are%20unknown.%20It%27s%20an%20intriguing%20setup%20that%20will%20hopefully%20lead%20to%20a%20big%20reveal.%20But%20in%20the%20meantime%2C%20I%20picked%20up%20a%20few%20more%20clues%20during%20a%20visit%20to%20the%20film%27s%20Los%20Angeles%20set%20that%20same%20day.%20While%20The%20Mandalorian%20and%20Grogu%20finished%20filming%20in%20December%202025%2C%20parts%20of%20the%20set%20are%20still%20standing%20at%20a%20small%20studio%20in%20LA.%20The%20cluster%20of%20buildings%20also%20includes%20a%20massive%20prop%20closet%20%28more%20like%20a%20building%20itself%29%20full%20of%20vehicles%2C%20weapons%2C%20droids%2C%20and%20creatures%20from%20various%20Star%20Wars%20film%20and%20t "HTTP/1.1 200 OK"
+2026-05-03 16:40:45,641 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AImagine%20Dragons%20admits%20new%20multiplayer%20game%20underperformed%2C%20but%20isn%27t%20ending%20support%0AZXQPART1ZXQ%0ALast%20Flag%27s%20future%20updates%20will%20be%20community-focused%20after%20a%20lackluster%20launch%20Night%20Street%20Games%2C%20a%20studio%20founded%20by%20Imagine%20Dragons.%20While%20most%20announcements%20of%20this%20ilk%20spell%20the%20end%20of%20the%20game%20in%20question%20%E2%80%94%20think%20Highguard%20%E2%80%94%20Last%20Flag%27s.%20Last%20Flag%20launched%20on%20April%2014%2C%20but%20subsequently%20made%20headlines%20for%20its%20low%20concurrent%20player%20count%20%2C%20which%20still%20hasn%27t.%20In%20a%20Steam%20post%20%2C%20Night%20Street%20Games%20admits%20that%20%22our%20player%20count%20is%20not%20currently%20where%20we%20need%20it.%20ZXQPART2ZXQ%0ALast%20Flag%27s%20future%20updates%20will%20be%20community-focused%20after%20a%20lackluster%20launch%20Night%20Street%20Games%2C%20a%20studio%20founded%20by%20Imagine%20Dragons%20%27%20lead%20singer%2C%20Dan%20Reynolds%2C%20and%20his%20brother%2C%20recently%20put%20out%20a%20statement%20about%20the%20future%20of%20its%20underperforming%20multiplayer%20shooter%20Last%20Flag%20.%20While%20most%20announcements%20of%20this%20ilk%20spell%20the%20end%20of%20the%20game%20in%20question%20%E2%80%94%20think%20Highguard%20%E2%80%94%20Last%20Flag%27s%20future%20is%20going%20to%20be%20more%20community-focused.%20Last%20Flag%20launched%20on%20April%2014%2C%20but%20subsequently%20made%20headlines%20for%20its%20low%20concurrent%20player%20count%20%2C%20which%20still%20hasn%27t%20rebounded. "HTTP/1.1 200 OK"
+2026-05-03 16:40:46,644 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=In%20a%20Steam%20post%20%2C%20Night%20Street%20Games%20admits%20that%20%22our%20player%20count%20is%20not%20currently%20where%20we%20need%20it%20to%20be%20to%20support%20additional%20development%20beyond%20our%20upcoming%20planned%20patches%2C%22%20confirming%20that%20Last%20Flag%20is%20underperforming%20its%20expectations.%20This%20was%20not%20a%20%22going%20offline%22%20announcement%2C%20though%2C%20as%20the%20studio%20stated%20that%20it%20is%20%22shifting%20our%20focus%20to%20make%20sure%20those%20updates%20give%20tons%20of%20value%20and%20control%20to%20our%20players%20so%20the%20game%20can%20continue%20to%20thrive%20and%20grow.%22%20The%20post%20goes%20on%20to%20explain%20that%20a%20new%20character%2C%20a%20new%20map%2C%20a%20new%20game%20mode%2C%20leaderboards%2C%20and%20new%20cosmetics%20will%20come%20to%20Last%20Flag%20over%20the%20next%20few%20months%2C%20but%20those%20aren%27t%20the%20most%20important%20additions.%20The%20new%20features%20Night%20Street%20Games%20sees%20as%20most%20critical%20to%20Last%20Flag%27s%20future%20are%20that%20of%20custom%20game%20lobbies%20and%20match%20rule%20sets.%20It%20teased%20unique%20match%20rules%20based%20on%20games%20like%20Team%20Fortress%202%2C%20GoldenEye%20007%20%2C%20and%20Super%20Smash%20Bros.%20and%20said%20it%20hopes%20these%20additions%20add%20more%20replay%20value%20to%20the%20struggling%20game.%20Currently%2C%20it%27s%20extremely%20tough%20for%20new%20competitive%20multiplayer%20games%20to%20break%20out%2C%20and%20Last%20Flag%27s%20capture%20the%20flag%20gameplay%20didn%27t%20enthrall%20players%20in%20the%20way%20Night%20Street%20Games%20hoped. "HTTP/1.1 200 OK"
+2026-05-03 16:40:47,440 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Still%2C%20I%20can%20commend%20the%20studio%20for%20stating%2C%20%22We%20don%E2%80%99t%20wa "HTTP/1.1 200 OK"
+2026-05-03 16:40:58,059 INFO [httpx] HTTP Request: GET https://api.mymemory.translated.net/get?q=ZXQPART0ZXQ%0AHousemarque%20reveals%20the%20%27arcade%20spirit%27%20that%20links%20Saros%20to%20Resogun%0AZXQPART1ZXQ%0AHousemarque%20explains%20how%20Saros%20sets%20itself%20apart%20from%20Returnal%20When%20a%20studio%20creates%20a%20bold%20new%20game%20that%20connects.%20That%20was%20the%20position%20Housemarque%20found%20itself%20in%20after%202021%E2%80%99s%20Returnal%20.%20The%20dazzling%20PlayStation%205%20shooter%20introduced%20more%20players%20to%20a%20shapeshifting%20studio%20known%20for%20creating%20innovative%2C%20arcade-style%20games.&langpair=en%7Cru "HTTP/1.1 429 Too Many Requests"
+2026-05-03 16:41:00,008 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Housemarque%20reveals%20the%20%27arcade%20spirit%27%20that%20links%20Saros%20to%20Resogun "HTTP/1.1 200 OK"
+2026-05-03 16:41:02,330 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Housemarque%20explains%20how%20Saros%20sets%20itself%20apart%20from%20Returnal%20When%20a%20studio%20creates%20a%20bold%20new%20game%20that%20connects.%20That%20was%20the%20position%20Housemarque%20found%20itself%20in%20after%202021%E2%80%99s%20Returnal%20.%20The%20dazzling%20PlayStation%205%20shooter%20introduced%20more%20players%20to%20a%20shapeshifting%20studio%20known%20for%20creating%20innovative%2C%20arcade-style%20games.%20Those%20new%20fans%20who%20found%20Housemarque%20through%20Returnal%20%E2%80%99s%20unique%20bullet-hell%20roguelike%20experience%20would%20surely%20want%20more%20from%20a%20studio. "HTTP/1.1 200 OK"
+2026-05-03 16:41:05,061 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Housemarque%20explains%20how%20Saros%20sets%20itself%20apart%20from%20Returnal%20When%20a%20studio%20creates%20a%20bold%20new%20game%20that%20connects%20with%20a%20mainstream%20audience%2C%20it%20can%20find%20itself%20at%20a%20crossroads.%20Do%20you%20follow%20that%20up%20by%20doing%20the%20same%20thing%20again%20or%20taking%20another%20big%20swing%3F%20That%20was%20the%20position%20Housemarque%20found%20itself%20in%20after%202021%E2%80%99s%20Returnal%20.%20The%20dazzling%20PlayStation%205%20shooter%20introduced%20more%20players%20to%20a%20shapeshifting%20studio%20known%20for%20creating%20innovative%2C%20arcade-style%20games.%20Those%20new%20fans%20who%20found%20Housemarque%20through%20Returnal%20%E2%80%99s%20unique%20bullet-hell%20roguelike%20experience%20would%20surely%20want%20more%20from%20a%20studio%20that%20rarely%20ever%20makes%20sequels%20to%20its%20own%20games.%20Now%2C%20five%20years%20later%2C%20Housemarque%20has%20returned%20with%20a%20fair%20compromise.%20Saros%20isn%E2%80%99t%20Returnal%202%20%2C%20but%20a%20totally%20new%20game.%20It%20is%2C%20however%2C%20a%20clear%20variation%20on%20a%20theme.%20It%20repeats%20virtually%20all%20of%20Returnal%20%E2%80%99s%20gameplay%20beats%2C%20but%20modifies%20them%20with%20a%20tweaked%20approach%20to%20defense%20and%20lots%20more%20opportunities%20for%20progression. "HTTP/1.1 200 OK"
+2026-05-03 16:41:05,802 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=In%20a%20video%20interview%20with%20Polygon%2C%20creative%20director%20Gregory%20Louden%20and%20associate%20design%20director%20Matti%20H%C3%A4kli%20explained%20how%20Housemarque%20landed%20the%20tricky%20balancing%20act%20of%20giving%20players%20the%20experience%20they%E2%80%99re%20craving%20while%20still%20doing%20something%20new%20within%20a%20familiar%20framework.%20It%20all%20comes%20down%20to%20the%20finer%20details.%20While%20Housemarque%20aims%20to%20innovate%20with%20each%20of%20its%20games%2C%20there%20was%20never%20a%20question%20as%20to%20how%20it%20would%20follow%20Returnal%20.%20Players%20loved%20the%20game%20and%20the%20developers%20did%20too%2C%20even%20after%20playing%20it%20over%20and%20over%20again.%20The%20team%20felt%20there%20was%20plenty%20more%20room%20to%20push%20its%20big-budget%20spin%20on%20the%20roguelike%2C%20but%20a%20proper%20sequel%20was%20never%20really%20in%20the%20cards.%20%22After%20Returnal%20%2C%20we%20were%20like%2C%20okay%2C%20this%20really%20worked.%20What%20we%27re%20doing%20seems%20to%20be%20resonating.%20We%20found%20something%2C%22%20Louden%20told%20Polygon.%20%22But%20very%20ea "HTTP/1.1 200 OK"
+2026-05-03 16:41:05,834 INFO [httpx] HTTP Request: GET https://www.theguardian.com/world/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:05,846 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for AI News
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:41:05,998 INFO [httpx] HTTP Request: GET https://www.theguardian.com/technology/rss "HTTP/1.1 302 Found"
+2026-05-03 16:41:06,105 INFO [httpx] HTTP Request: GET https://www.theguardian.com/uk/technology/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:06,721 INFO [httpx] HTTP Request: GET https://www.ign.com/rss/articles/feed?tags=games "HTTP/1.1 200 OK"
+2026-05-03 16:41:07,408 INFO [httpx] HTTP Request: GET https://www.gamespot.com/feeds/mashup/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:09,042 INFO [httpx] HTTP Request: GET https://www.rockpapershotgun.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:09,255 INFO [httpx] HTTP Request: GET https://www.rockpapershotgun.com/wolfenstein-meets-metroidvania-in-wolfhound-an-8-bit-ode-to-yesteryear-with-zombies-and-nazi-mechs "HTTP/1.1 200 OK"
+2026-05-03 16:41:12,130 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AWolfenstein%20meets%20Metroidvania%20in%20Wolfhound%2C%20an%208-bit%20ode%20to%20yesteryear%20with%20zombies%20and%20Nazi%20mechs%0AZXQPART1ZXQ%0AHere%27s%20hoping%20the%20endboss%20is%20robot%20Hitler%20Wolfhound%20is%20a%20game%20that%20I%27ve%20kept%20my%20eyes%20on%20for%20quite%20some.%20While%20an%20exact%20release%20date%20for%20this%20retro-inspired%20indie%20is%20still%20forthcoming%2C%20indications%20hint%20that%20it%20may%20arrive.%20The%20sophomore%20effort%20from%20indie%20developer%20Bit%20Kit%2C%20Wolfhound%20is%20similar%20to%20Metroid%2C%20but%20with%20a%20solid%20helping%20of%20Wolfenstein.%20You%20play%20a%20WWII%20all-American%20captain%20named%20Chuck%20Rosetti%20who%27s%20sent%20to%20investigate%20a%20Bermuda%20island%20where%20the%20Nazis%20are.%20ZXQPART2ZXQ%0AHere%27s%20hoping%20the%20endboss%20is%20robot%20Hitler%20Wolfhound%20is%20a%20game%20that%20I%27ve%20kept%20my%20eyes%20on%20for%20quite%20some%20time%2C%20listing%20it%20on%20both%20our%202025%20and%202026%20most%20anticipated%20lists.%20While%20an%20exact%20release%20date%20for%20this%20retro-inspired%20indie%20is%20still%20forthcoming%2C%20indications%20hint%20that%20it%20may%20arrive%20at%20the%20tail%20end%20of%20this%20year%2C%20and%20a%20build%20that%20I%27ve%20recently%20played%20provided%20more%20reasons%20to%20be%20excited.%20The%20sophomore%20effort%20from%20indie%20developer%20Bit%20Kit%2C%20Wolfhound%20is%20similar%20to%20Metroid%2C%20but%20with%20a%20solid%20helping%20of%20Wolfenstein%20thrown%20into%20the%20mix. "HTTP/1.1 200 OK"
+2026-05-03 16:41:13,451 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=You%20play%20a%20WWII%20all-American%20captain%20named%20Chuck%20Rosetti%20who%27s%20sent%20to%20investigate%20a%20Bermuda%20island%20where%20the%20Nazis%20are%20doing%20their%20usual%20nasty%20experiments.%20Your%20plane%20gets%20shot%20down%20on%20the%20way%20over%2C%20and%20you%20end%20up%20in%20a%20lovingly-designed%208-bit%20jungle%20with%20all%20manner%20of%20foes%20hunting%20you%20down%2C%20including%20zombies%2C%20killer%20bees%2C%20sentient%20slimes%2C%20and%20retrofuturist%20mechs.%20I%20say%208-bit%20as%20an%20easy%20descriptor%2C%20since%20Wolfhound%27s%20colour%20palette%2C%20Emulogic-style%20font%2C%20and%20punchy%20chiptunes%20bring%20to%20mind%20memories%20of%20blowing%20on%20an%20old%20cartridge%20to%20get%20it%20to%20work.%20But%20Wolfhound%20actually%20feels%20more%20higher-grade%20than%20the%20NES%2C%20though%20it%27s%20not%20quite%20Super%20NES%20level.%20The%20Sega%20Master%20System%20and%20NEC%20PC%20Engine%2FTurboGrafx-16%20are%20better%20comparisons%2C%20since%20the%20colourful%20tilesets%20on%20display%2C%20the%20smooth%20movement%20of%20Chuck%20as%20he%20hops%20around%2C%20and%20often-huge%20enemy%20sprites%20are%20far%20beyond%20what%20Nintendo%27s%20first%20home%20console%20could%20handle.%20As%20this%20is%20a%20PC-centric%20site%2C%20I%27m%20also%20going%20to%20compare%20Wolfhound%27s%20visuals%20favourably%20to%20the%201987%20PC-88%20and%20MS-DOS%20classic%20Zeliard. "HTTP/1.1 200 OK"
+2026-05-03 16:41:14,385 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=%28An%20Allied%20powers%20salute%20to%20you%20if%20you%27ve%20played%20that%20one.%29%20While%20it%20might%20look%20like%20yesteryear%2C%20Wolfhound%20possesses%20level%20design%20that%20radiates%20modern%20Metroidvania%2C%20with%20the%20build%20I%20played%20featuring%20three%20areas%3A%20the%20isl "HTTP/1.1 200 OK"
+2026-05-03 16:41:14,903 INFO [httpx] HTTP Request: GET https://www.eurogamer.net/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:15,537 INFO [httpx] HTTP Request: GET https://dtf.ru/rss/all "HTTP/1.1 200 OK"
+2026-05-03 16:41:15,679 INFO [httpx] HTTP Request: GET https://dtf.ru/games/5034815-kinematografichnyy-treyler-baletnogo-sleshera-tsarevna?from=rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:16,518 INFO [httpx] HTTP Request: GET https://cryptoslate.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-05-03 16:41:16,526 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for CryptoSlate
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 72, in fetch
+    response.raise_for_status()
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://cryptoslate.com/feed/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 16:41:17,006 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/DiningandWine.xml "HTTP/1.1 200 OK"
+2026-05-03 16:41:17,431 INFO [httpx] HTTP Request: GET https://www.theguardian.com/food/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:17,596 INFO [httpx] HTTP Request: GET https://www.theguardian.com/food/2026/may/03/perfect-spanish-broad-bean-stew-recipe-felicity-cloake "HTTP/1.1 200 OK"
+2026-05-03 16:41:17,890 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for TechCrunch
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:41:18,006 INFO [httpx] HTTP Request: GET https://www.theguardian.com/food/2026/may/03/willys-margate-kent-restaurant-review-grace-dent "HTTP/1.1 200 OK"
+2026-05-03 16:41:21,013 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AHow%20to%20make%20the%20perfect%20Spanish%20broad%20bean%20stew%20%E2%80%93%20recipe%20%7C%20Felicity%20Cloake%0AZXQPART1ZXQ%0AThis%20simple%20Spanish%20classic%20will%20convince%20even%20staunch%20fava-phobics%20to%20give%20beans%20a%20chance%20The%20Guardian%E2%80%99s%20journalism%20is%20independent.%20We%20will%20earn%20a%20commission%20if%20you%20buy%20something%20through%20an%20affiliate%20link.%20Learn%20more%20.%20I%20always%20feel%20sorry%20for%20broad%20beans%2C%20the%20lumpy%20cousin%20perpetually%20overshadowed%20by%20the%20charms%20of%20slender%2C%20elegant%20asparagus.%20ZXQPART2ZXQ%0AThis%20simple%20Spanish%20classic%20will%20convince%20even%20staunch%20fava-phobics%20to%20give%20beans%20a%20chance%20The%20Guardian%E2%80%99s%20journalism%20is%20independent.%20We%20will%20earn%20a%20commission%20if%20you%20buy%20something%20through%20an%20affiliate%20link.%20Learn%20more%20.%20I%20always%20feel%20sorry%20for%20broad%20beans%2C%20the%20lumpy%20cousin%20perpetually%20overshadowed%20by%20the%20charms%20of%20slender%2C%20elegant%20asparagus%20and%20sweet%2C%20bouncy%2C%20little%20peas. "HTTP/1.1 200 OK"
+2026-05-03 16:41:21,955 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=They%E2%80%99re%20in%20season%20at%20roughly%20the%20same%20time%2C%20but%20asparagus%20in%20particular%20gets%20all%20the%20glory%2C%20perhaps%20because%20so%20many%20of%20us%20are%20scarred%20by%20childhood%20experiences%20of%20large%2C%20grey%20wrinkly%20beans%20served%20in%20a%20floury%20white%20sauce%20%28my%20own%20parents%20are%20so%20averse%20to%20the%20things%20that%20I%20vividly%20remember%20the%20first%20time%20I%20came%20across%20them%20on%20a%20Sunday%20roast%20as%20a%20teenager%20and%20had%20to%20ask%20a%20friend%20what%20they%20were%29.%20The%20Guardian%E2%80%99s%20journalism%20is%20independent.%20We%20will%20earn%20a%20commission%20if%20you%20buy%20something%20through%20an%20affiliate%20link.%20Learn%20more%20.%20Unsurprising%20though%20it%20is%2C%20given%20our%20general%20scepticism%20with%20regard%20to%20pulses%2C%20the%20British%20lack%20of%20enthusiasm%20for%20the%20broad%20bean%20is%20a%20particular%20shame%2C%20because%20it%E2%80%99s%20been%20an%20important%20part%20of%20the%20European%20diet%20since%20ancient%20times.%20As%20the%20Oxford%20Companion%20to%20Food%20explains%2C%20however%2C%20they%20are%20also%20linked%20to%20a%20%E2%80%9Csuperstitious%20dread%E2%80%9D%20possibly%20associated%20with%20%E2%80%9Ca%20general%20belief%20that%20the%20souls%20of%20the%20dead%20might%20migrate%20into%20beans%E2%80%9D.%20Having%20eaten%20a%20lot%20of%20the%20things%20in%20the%20process%20of%20writing%20this%20piece%2C%20I%20can%20reassure%20nervous%20readers%20that%20no%20haunting%20has%20yet%20taken%20place%2C%20and%20that%20this%20Spanish%20way%20with%20them%20is%20all%20but%20guaranteed%20to%20convince%20even%20the%20staunchest%20of%20fava%20phobics. "HTTP/1.1 200 OK"
+2026-05-03 16:41:23,135 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Go%20on%3A%20give%20them%20a%20try.%20Like%20me%2C%20Sam%20and%20Eddie%20Hart%20%E2%80%9Calways%20look%20forward%20to%20the%20broad%20bean%20season.%20The%20first%20to%20arrive%20at%20the%20restaurant%20are%20from%20north%20Africa%20in%20March.%20Our%20source%20gradually%20works%20northwards%20until%20June%20and%20July%2C%20w "HTTP/1.1 200 OK"
+2026-05-03 16:41:26,160 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AWilly%E2%80%99s%2C%20Margate%2C%20Kent%3A%20%E2%80%98It%20chortles%20in%20the%20face%20of%20small%20plates%E2%80%99%20%E2%80%93%20restaurant%20review%20%7C%20Grace%20Dent%20on%20restaurants%0AZXQPART1ZXQ%0AThis%20cute%20and%20jovial%20eatery%20is%20reason%20enough%20to%20make%20a%20break%20for%20the%20coast%20A%20s%20summer%20looms%2C.%20Tucked%20away%20in%20the%20back%20of%20Margate%20House%20hotel%20on%20Dalby%20Square%2C%20a%20few%20minutes%E2%80%99%20walk%20from%20the%20seafront%2C%20Willy%E2%80%99s.%20It%E2%80%99s%20cool%2C%20cute%20and%20jovial%2C%20with%20pork%20scratchings%20and%20apple%20chutney%20on%20the%20menu%2C%20as%20well%20as%20black%20pudding%20scotch.%20This%20menu%20is%20short%2C%20intentional%20and%20hearty%2C%20rather%20than%20airy-fairy%2C%20and%20it%20chortles%20in%20the%20face%20of%20small%20plates.%20ZXQPART2ZXQ%0AThis%20cute%20and%20jovial%20eatery%20is%20reason%20enough%20to%20make%20a%20break%20for%20the%20coast%20A%20s%20summer%20looms%2C%20and%20with%20it%20the%20urge%20to%20stampede%20towards%20the%20edges%20of%20Britain%20in%20search%20of%20paddling%20opportunities%2C%20I%20proffer%20another%20coastal%20dining%20idea%3A%20Willy%E2%80%99s%20in%20Margate%20%E2%80%93%20and%2C%20yes%2C%20that%20name%20does%20have%20about%20it%20something%20of%20the%20naughty%20seaside%20postcard.%20Tucked%20away%20in%20the%20back%20of%20Margate%20House%20hotel%20on%20Dalby%20Square%2C%20a%20few%20minutes%E2%80%99%20walk%20from%20the%20seafront%2C%20Willy%E2%80%99s%20is%20a%20blur%20of%20frilly%20red-and-pink%20seaside%20adorableness. "HTTP/1.1 200 OK"
+2026-05-03 16:41:27,159 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=It%E2%80%99s%20cool%2C%20cute%20and%20jovial%2C%20with%20pork%20scratchings%20and%20apple%20chutney%20on%20the%20menu%2C%20as%20well%20as%20black%20pudding%20scotch%20eggs%2C%20sticky%20toffee%20pudding%20and%20Sunday%20lunches%20of%20beef%20rump%20and%20baked%20cauliflower%20cheese.%20This%20menu%20is%20short%2C%20intentional%20and%20hearty%2C%20rather%20than%20airy-fairy%2C%20and%20it%20chortles%20in%20the%20face%20of%20small%20plates.%20But%2C%20for%20the%20foodie%2Fsippy%20crowd%2C%20the%20signifiers%20are%20all%20here%3A%20there%E2%80%99s%20a%20paper%20plane%20and%20a%20penicillin%20on%20the%20cocktail%20menu%2C%20throwbacks%20to%20New%20York%E2%80%99s%20iconic%20Milk%20and%20Honey%20bar.%20There%20are%20three%20Olivier%20Pithon%20natural%20wines%20from%20Roussillon%20on%20the%20short%20list%2C%20which%20as%20a%20whole%20leans%20towards%20natural%20and%20low-intervention%20bottles%20from%20France%2C%20Spain%20and%20Italy.%20Most%20tellingly%2C%20the%20chef%20is%20Mark%20O%E2%80%99Brien%2C%20who%20worked%20with%20Robin%20Gill%20at%20the%20Dairy%20in%20London%20and%20at%20Samphire%20in%20nearby%20Whitstable%20before%20making%20this%20little%20nook%20his%20home%2C%20and%20who%20earlier%20this%20year%20reached%20the%20final%20three%20of%20MasterChef%3A%20The%20Professionals%20.%20Willy%E2%80%99s%20is%20clearly%20run%20by%20a%20team%20that%20knows%20about%20nice%20things. "HTTP/1.1 200 OK"
+2026-05-03 16:41:28,535 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20dining%20room%20itself%20is%20snug%20and%20cosseting%2C%20like%20a%20little%20womb%20%E2%80%93%20or%20at%20least%20like%20a%20womb%20that%20serves%20snacks%20and%20starters%20of%20devils%20on%20horseback%2C%20coronation%20mussels%20with%20almond%20chilli%20oil%2C%20and%20roast%20courgette%20salad%20with%20hazelnut%20and%20basil%2C%20and%20mains%20that%20include%20braised%20beef%20rib%20with%20leek%20and%20barley%20risotto%20and "HTTP/1.1 200 OK"
+2026-05-03 16:41:28,577 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for Al Jazeera
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:41:28,757 INFO [httpx] HTTP Request: GET https://venturebeat.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:28,975 INFO [httpx] HTTP Request: GET https://www.bbcgoodfood.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:29,033 INFO [httpx] HTTP Request: GET https://rss.dw.com/rdf/rss-en-all "HTTP/1.1 200 OK"
+2026-05-03 16:41:29,281 INFO [httpx] HTTP Request: GET https://www.coindesk.com/arc/outboundfeeds/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:29,532 INFO [httpx] HTTP Request: GET https://www.france24.com/en/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:29,953 INFO [httpx] HTTP Request: GET https://cointelegraph.com/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:30,073 INFO [httpx] HTTP Request: GET https://www.theverge.com/rss/index.xml "HTTP/1.1 200 OK"
+2026-05-03 16:41:30,450 INFO [httpx] HTTP Request: GET https://decrypt.co/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:30,567 INFO [httpx] HTTP Request: GET https://www.espn.com/espn/rss/news "HTTP/1.1 202 Accepted"
+2026-05-03 16:41:30,577 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for ESPN
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 253, in parse_feed
+    return self._parse_feed_with_selectolax(xml_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 265, in _parse_feed_with_selectolax
+    from selectolax.parser import HTMLParser
+ModuleNotFoundError: No module named 'selectolax'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 103, in _ingest_source
+    items = self.parse_feed(xml_bytes)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 255, in parse_feed
+    return self._parse_feed_with_elementtree(xml_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 258, in _parse_feed_with_elementtree
+    root = ET.fromstring(xml_bytes.lstrip(b"\xef\xbb\xbf"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\xml\etree\ElementTree.py", line 1351, in XML
+    return parser.close()
+           ^^^^^^^^^^^^^^
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+2026-05-03 16:41:31,184 INFO [httpx] HTTP Request: GET https://www.polygon.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:31,297 INFO [httpx] HTTP Request: GET https://www.sciencedaily.com/rss/top.xml "HTTP/1.1 200 OK"
+2026-05-03 16:41:31,746 INFO [httpx] HTTP Request: GET https://www.ign.com/rss/articles/feed?tags=games "HTTP/1.1 200 OK"
+2026-05-03 16:41:31,990 INFO [httpx] HTTP Request: GET https://www.technologyreview.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:32,989 INFO [httpx] HTTP Request: GET https://www.artificialintelligence-news.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:33,653 INFO [httpx] HTTP Request: GET https://techcrunch.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:34,059 INFO [httpx] HTTP Request: GET https://venturebeat.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:34,688 INFO [httpx] HTTP Request: GET https://www.coindesk.com/arc/outboundfeeds/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:35,127 INFO [httpx] HTTP Request: GET https://cointelegraph.com/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:35,627 INFO [httpx] HTTP Request: GET https://decrypt.co/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:36,456 INFO [httpx] HTTP Request: GET https://www.polygon.com/feed/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:36,900 INFO [httpx] HTTP Request: GET https://www.gamespot.com/feeds/mashup/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:37,041 INFO [httpx] HTTP Request: GET https://www.ign.com/rss/articles/feed?tags=games "HTTP/1.1 200 OK"
+2026-05-03 16:41:37,334 INFO [httpx] HTTP Request: GET https://www.rockpapershotgun.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:37,824 INFO [httpx] HTTP Request: GET https://www.gamespot.com/feeds/mashup/ "HTTP/1.1 200 OK"
+2026-05-03 16:41:37,857 INFO [httpx] HTTP Request: GET https://www.eurogamer.net/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:38,276 INFO [httpx] HTTP Request: GET https://www.rockpapershotgun.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:38,574 INFO [httpx] HTTP Request: GET https://dtf.ru/rss/all "HTTP/1.1 200 OK"
+2026-05-03 16:41:38,794 INFO [httpx] HTTP Request: GET https://www.eurogamer.net/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:39,099 INFO [httpx] HTTP Request: GET https://cryptoslate.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-05-03 16:41:39,116 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for CryptoSlate
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 72, in fetch
+    response.raise_for_status()
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://cryptoslate.com/feed/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 16:41:39,417 INFO [httpx] HTTP Request: GET https://dtf.ru/rss/all "HTTP/1.1 200 OK"
+2026-05-03 16:41:39,482 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/DiningandWine.xml "HTTP/1.1 200 OK"
+2026-05-03 16:41:39,811 INFO [httpx] HTTP Request: GET https://www.theguardian.com/food/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:39,910 INFO [httpx] HTTP Request: GET https://cryptoslate.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-05-03 16:41:39,914 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for CryptoSlate
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 72, in fetch
+    response.raise_for_status()
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://cryptoslate.com/feed/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 16:41:40,284 INFO [httpx] HTTP Request: GET https://rss.nytimes.com/services/xml/rss/nyt/DiningandWine.xml "HTTP/1.1 200 OK"
+2026-05-03 16:41:40,347 INFO [httpx] HTTP Request: GET https://www.bbcgoodfood.com/feed "HTTP/1.1 200 OK"
+2026-05-03 16:41:40,808 INFO [httpx] HTTP Request: GET https://www.theguardian.com/food/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:40,901 INFO [httpx] HTTP Request: GET https://www.eater.com/rss/index.xml "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,074 INFO [httpx] HTTP Request: GET https://www.theguardian.com/culture/rss "HTTP/1.1 302 Found"
+2026-05-03 16:41:41,088 ERROR [app.ingestion.rss.rss_pipeline] RSS ingestion failed for Eater
+Traceback (most recent call last):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_pipeline.py", line 102, in _ingest_source
+    xml_bytes = await self.client.fetch(feed_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 71, in fetch
+    response = await self._get_httpx(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\Downloads\严蝄news-ai-filter\app\ingestion\rss\rss_client.py", line 101, in _get_httpx
+    return await self._client.get(url, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\panzz\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+2026-05-03 16:41:41,176 INFO [httpx] HTTP Request: GET https://www.theguardian.com/uk/culture/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,344 INFO [httpx] HTTP Request: GET https://www.theguardian.com/music/2026/may/03/guardian-writers-mood-based-playlists "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,586 INFO [httpx] HTTP Request: GET https://www.theguardian.com/culture/rss "HTTP/1.1 302 Found"
+2026-05-03 16:41:41,685 INFO [httpx] HTTP Request: GET https://www.theguardian.com/uk/culture/rss "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,780 INFO [httpx] HTTP Request: GET https://www.theguardian.com/stage/2026/may/03/kohlhaas-review-arinze-kene-omar-elerian-brighton-dome-corn-exchange "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,787 INFO [httpx] HTTP Request: GET https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,914 INFO [httpx] HTTP Request: GET https://www.theguardian.com/music/2026/may/03/guardian-writers-mood-based-playlists "HTTP/1.1 200 OK"
+2026-05-03 16:41:41,934 INFO [httpx] HTTP Request: GET https://www.theguardian.com/culture/2026/may/02/peter-kay-bomb-hoax-birmingham-man-charged "HTTP/1.1 200 OK"
+2026-05-03 16:41:42,031 INFO [httpx] HTTP Request: GET https://www.theguardian.com/music/2026/may/03/honest-playlist-tony-mortimer-east-17-madness-take-that-adele "HTTP/1.1 200 OK"
+2026-05-03 16:41:42,039 INFO [httpx] HTTP Request: GET https://www.theguardian.com/tv-and-radio/2026/may/03/tv-tonight-let-the-david-attenborough-100th-birthday-celebrations-begin "HTTP/1.1 200 OK"
+2026-05-03 16:41:42,116 INFO [httpx] HTTP Request: GET https://www.theguardian.com/music/2026/may/03/honest-playlist-tony-mortimer-east-17-madness-take-that-adele "HTTP/1.1 200 OK"
+2026-05-03 16:41:44,570 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0ASpotify%20has%20ruined%20mood%20playlists%20%E2%80%93%20so%20our%20critics%20have%20made%20some%20better%20ones%20instead%0AZXQPART1ZXQ%0AWhether%20made%20by%20human%20hand%20or%20shady%20algorithm%2C%20emotion-based%20playlists%20are%20everywhere.%20But%20if%20you%E2%80%99re%20looking%20for%20a%20superior%20soundtrack%20to%20%E2%80%98all%20the%20feels%E2%80%99%2C%20get%20your%20ears%20round%20these%20selections%20from%20our.%20There%20have%20always%20been%20albums%20designed%20to%20evoke%20a%20certain%20mood%2C%20from%20Frank%20Sinatra%20Sings%20for%20Only%20the%20Lonely%20to.%20But%20in%20recent%20years%2C%20we%20seem%20to%20have%20become%20more%20interested%20in%20the%20relationship%20between%20music%20and%20mood.%20ZXQPART2ZXQ%0AWhether%20made%20by%20human%20hand%20or%20shady%20algorithm%2C%20emotion-based%20playlists%20are%20everywhere.%20But%20if%20you%E2%80%99re%20looking%20for%20a%20superior%20soundtrack%20to%20%E2%80%98all%20the%20feels%E2%80%99%2C%20get%20your%20ears%20round%20these%20selections%20from%20our%20music%20writers%20M%20usic%20might%20be%20the%20greatest%20mood%20enhancer%20in%20the%20world%3A%20it%E2%80%99s%20certainly%20hard%20to%20think%20of%20another%20art%20form%20that%20can%20so%20effectively%20tip%20a%20feeling%20of%20happiness%20into%20euphoria%20or%20create%20a%20suitably%20gloomy%20space%20in%20which%20to%20wallow%20in%20melancholy.%20There%20have%20always%20been%20albums%20designed%20to%20evoke%20a%20certain%20mood%2C%20from%20Frank%20Sinatra%20Sings%20for%20Only%20the%20Lonely%20to%20Essential%20Chill%20Out%20Vol%202. "HTTP/1.1 200 OK"
+2026-05-03 16:41:46,069 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=But%20in%20recent%20years%2C%20we%20seem%20to%20have%20become%20more%20interested%20in%20the%20relationship%20between%20music%20and%20mood.%20Streaming%20services%20are%20thick%20with%20mood-based%20playlists.%20There%20appear%20to%20be%20hundreds%20of%20the%20things%20on%20Spotify%20%2C%20from%20the%20straightforward%20%28Happy%20Vibes%29%20to%20the%20vague%20%28All%20the%20Feels%29%2C%20and%20they%20appear%20to%20have%20struck%20a%20nerve%3A%20Spotify%E2%80%99s%20own%20curated%20mood%20playlists%20are%20now%20vastly%20outnumbered%20by%20user-generated%20ones%2C%20soundtracking%20everything%20from%20Friday%20at%20the%20Office%20to%20%E2%80%93%20I%20swear%20I%E2%80%99m%20not%20making%20this%20up%20%E2%80%93%20Losing%20Someone%20to%20Suicide.%20There%20are%20those%20who%20have%20detected%20something%20sinister%20in%20all%20this.%20Liz%20Pelly%E2%80%99s%202025%20book%20Mood%20Machine%3A%20The%20Rise%20of%20Spotify%20and%20the%20Costs%20of%20the%20Perfect%20Playlist%20suggests%20that%20the%20Spotify%E2%80%99s%20seeming%20obsession%20with%20mood-based%20playlists%20is%20linked%20to%20its%20focus%20on%20what%20it%20calls%20%E2%80%9Clean-back%20consumers%E2%80%9D%20%E2%80%93%20not%20ardent%20music%20fans%2C%20but%20the%20kind%20of%20people%20who%20would%20once%20have%20turned%20the%20radio%20on%20in%20the%20morning%20and%20left%20it%20burbling%20quietly%20away%20all%20day.%20These%20playlists%2C%20Pelly%20suggests%2C%20exist%20as%20a%20latterday%20equivalent%20of%20muzak%2C%20designed%20to%20be%20as%20unobtrusive%2C%20unsurprising%20and%20unadventurous%20as%20possible%2C%20to%20seamlessly%20play%20in%20the%20background%20without%20really%20being%20noticed. "HTTP/1.1 200 OK"
+2026-05-03 16:41:46,523 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Moreover%2C%20you%20don%E2%80%99t%20ha "HTTP/1.1 200 OK"
+2026-05-03 16:41:49,432 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0A%E2%80%98I%20wanted%20it%20to%20feel%20both%20Shakespearean%20and%20like%20Jay-Z%E2%80%99%3A%20debut%20author%20Sufiyaan%20Salam%20on%20masculinity%2C%20rap%20and%20meeting%20Stormzy%0AZXQPART1ZXQ%0ABringing%20Manchester%E2%80%99s%20Curry%20Mile%20to%20vibrant%20life%2C%20the%20%23Merky%20prize-winning%20author%E2%80%99s%20cross-genre%20work%20focuses%20on%20the%20lives%20and%20language.%20He%20discusses%20identity%20and%20inspiration%20O%20n%20a%20stretch%20of%20Manchester%20road%20known%20for%20kebabs%2C%20shisha%20smoke%20and%20restless%20energy.%20The%20premise%20of%20Wimmy%20Road%20Boyz%2C%20the%20debut%20novel%20by%20%23Merky%20books%20new%20writers%E2%80%99%20prize%20winner%20Sufiyaan%20Salam%2C%20is%20deceptively.%20What%20follows%20is%20anything%20but.%20ZXQPART2ZXQ%0ABringing%20Manchester%E2%80%99s%20Curry%20Mile%20to%20vibrant%20life%2C%20the%20%23Merky%20prize-winning%20author%E2%80%99s%20cross-genre%20work%20focuses%20on%20the%20lives%20and%20language%20of%20young%20British%20men.%20He%20discusses%20identity%20and%20inspiration%20O%20n%20a%20stretch%20of%20Manchester%20road%20known%20for%20kebabs%2C%20shisha%20smoke%20and%20restless%20energy%2C%20three%20young%20men%20drive%20towards%20a%20night%20that%20already%20feels%20like%20it%E2%80%99s%20slipping%20out%20of%20control.%20The%20premise%20of%20Wimmy%20Road%20Boyz%2C%20the%20debut%20novel%20by%20%23Merky%20books%20new%20writers%E2%80%99%20prize%20winner%20Sufiyaan%20Salam%2C%20is%20deceptively%20simple%3A%20%E2%80%9Cthree%20boyz%20drive%20and%20dream%20of%20an%20impossible%20night%20on%20an%20endless%20street%E2%80%9D.%20What%20follows%20is%20anything%20but. "HTTP/1.1 200 OK"
+2026-05-03 16:41:50,595 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Salam%E2%80%99s%20novel%20unfolds%20over%20a%20single%20evening%20on%20the%20Curry%20Mile%2C%20that%20dense%20artery%20of%20Rusholme%20nightlife%2C%20where%20a%20white%20BMW%20carries%20Immy%2C%20Khan%20and%20Haris%20through%20a%20series%20of%20skirmishes%2C%20side%20quests%20and%20emotional%20unravellings.%20It%E2%80%99s%20a%20book%20about%20masculinity%2C%20violence%20and%20love%2C%20but%20also%20about%20language%20%E2%80%93%20how%20young%20British%20men%20speak%2C%20perform%20and%20fail%20to%20articulate%20what%E2%80%99s%20really%20going%20on%20inside%20their%20heads.%20At%2028%2C%20Salam%20is%20a%20standard-bearer%20for%20a%20new%20generation%20of%20literary%20novelists.%20He%20grew%20up%20in%20Blackburn%2C%20a%20town%20he%20felt%20at%20the%20time%20was%20%E2%80%9Ca%20where%20dreams%20go%20to%20die%20sort%20of%20situation%E2%80%9D%2C%20shaped%20by%20racial%20tensions%20and%20deep%20deprivation.%20%E2%80%9CIt%E2%80%99s%20a%20very%20racially%20segregated%20place%2C%20and%20the%20ward%20I%20grew%20up%20in%20had%20one%20of%20the%20highest%20levels%20of%20child%20poverty%20in%20the%20country%2C%E2%80%9D%20he%20says.%20Being%20brown%20and%20Muslim%20in%20post-9%2F11%20Britain%2C%20he%20recalls%20a%20vague%20but%20persistent%20sense%20of%20otherness%20and%20fear.%20As%20a%20teenager%2C%20he%20wore%20a%20backpack%20with%20flowers%20on%20it%2C%20hoping%20it%20would%20make%20him%20seem%20less%20threatening.%20But%20his%20home%20town%20also%20gave%20him%20%E2%80%9Cthis%20real%20mosaic%20of%20human%20life%E2%80%9D%2C%20a%20range%20of%20experiences%20that%20now%20feed%20directly%20into%20his%20fiction.%20Salam%20studied%20English%20literature%20at%20Manchester%20University%2C%20but%20writing%20for%20a%20living%20fe "HTTP/1.1 200 OK"
+2026-05-03 16:41:53,235 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0A%E2%80%98Our%20rivalry%20with%20Take%20That%20was%20always%20tongue%20in%20cheek%E2%80%99%3A%20Tony%20Mortimer%E2%80%99s%20honest%20playlist%0AZXQPART1ZXQ%0AThe%20East%2017%20man%20knows%20his%2090s%20bangers%20but%20once%20inadvertently%20cleared%20a%20dancefloor.%20The%20first%20single%20I%20bought%20Shut%20Up%20by%20Madness%2C%20from%20a%20record%20shop%20on%20Hoe%20Street%20in%20Walthamstow%2C%20London.%20It%20gave%20me%20a%20kind%20of%20independence%20in%20the%20world%20when%20I%20could%20choose%20what%20I%20wanted.%20And%20as%20a%20nine-year-old%2C%20you%20could%20find%2010p%20down%20the%20back%20of%20the%20sofa%20and%20get%20a%20Madness%20badge.%20ZXQPART2ZXQ%0AThe%20East%2017%20man%20knows%20his%2090s%20bangers%20but%20once%20inadvertently%20cleared%20a%20dancefloor.%20And%20what%20song%20gets%20him%20on%20the%20exercise%20bike%20in%20a%20morning%3F%20The%20first%20single%20I%20bought%20Shut%20Up%20by%20Madness%2C%20from%20a%20record%20shop%20on%20Hoe%20Street%20in%20Walthamstow%2C%20London.%20It%20gave%20me%20a%20kind%20of%20independence%20in%20the%20world%20when%20I%20could%20choose%20what%20I%20wanted.%20And%20as%20a%20nine-year-old%2C%20you%20could%20find%2010p%20down%20the%20back%20of%20the%20sofa%20and%20get%20a%20Madness%20badge%20at%20the%20market%20to%20stick%20on%20your%20coat.%20The%20song%20I%20do%20at%20karaoke%20I%E2%80%99ve%20only%20done%20karaoke%20once%2C%20really%20loud%20and%20absolutely%20inebriated%20on%20sake%20in%20Japan.%20I%E2%80%99d%20had%20a%20few%20and%20thought%3A%20%E2%80%9CThis%20isn%E2%80%99t%20really%20doing%20much%E2%80%9D%2C%20then%20it%20hit%20me%20like%20a%20hammer.%20That%20was%20a%20messy%20night. "HTTP/1.1 200 OK"
+2026-05-03 16:41:54,535 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=If%20I%20had%20to%20do%20karaoke%20now%2C%20I%E2%80%99d%20do%20East%2017%E2%80%99s%20House%20of%20Love%2C%20because%20at%20least%20I%E2%80%99d%20remember%20the%20words.%20The%20best%20song%20to%20play%20at%20a%20party%20C%26C%20Music%20Factory%E2%80%99s%20Gonna%20Make%20You%20Sweat%20%28Everybody%20Dance%20Now%29%20is%20like%20an%20electric%20shock.%20And%20when%20I%E2%80%99m%20DJing%2C%20CeCe%20Peniston%E2%80%99s%20Finally%20always%20gets%20the%20crowd%20going.%20I%E2%80%99ve%20cleared%20the%20dancefloor%2C%20too.%20I%20got%20a%20bit%20selfish%20once%20and%20played%20Shannon%E2%80%99s%20Let%20the%20Music%20Play%20%E2%80%93%20and%20everyone%20went%20to%20the%20bar.%20The%20song%20I%20can%20no%20longer%20listen%20to%20My%20late%20brother%20used%20to%20sit%20in%20his%20bedroom%20and%20play%20Dire%20Straits%E2%80%99%20Romeo%20and%20Juliet%20on%20guitar.%20It%E2%80%99s%20a%20lovely%20song%2C%20but%20it%20just%20brings%20me%20down%20now.%20The%20song%20I%20secretly%20like%2C%20but%20tell%20everyone%20I%20hate%20Patience%20by%20Take%20That.%20I%20thought%20it%20was%20a%20great%20comeback%20song.%20Our%20%E2%80%9Crivalry%E2%80%9D%20was%20always%20tongue-in-cheek.%20We%20secretly%20liked%20each%20other.%20The%20rivalry%20was%20more%20between%20our%20fans.%20The%20song%20that%20changed%20my%20life%20I%E2%80%99d%20have%20to%20say%20Deep.%20I%20know%20it%E2%80%99s%20mine%2C%20but%20it%20smashed%20so%20many%20doors%20open.%20Without%20that%20song%2C%20there%20wouldn%E2%80%99t%20have%20been%20a%20band.%20That%E2%80%99s%20how%20much%20importance%20I%20put%20on%20it.%20The%20song%20that%20gets%20me%20up%20in%20the%20morning%20There%E2%80%99s%20a%20lovely%20remix%20of%20Bob%20Marley%E2%80%99s%20Sun%20Is%20Shin "HTTP/1.1 200 OK"
+2026-05-03 16:42:05,690 INFO [httpx] HTTP Request: GET https://api.mymemory.translated.net/get?q=ZXQPART0ZXQ%0ATV%20tonight%3A%20let%20the%20David%20Attenborough%20100th%20birthday%20celebrations%20begin%21%20ZXQPART1ZXQ%0AThe%20broadcaster%20relives%20his%20landmark%20series%20that%20changed%20everything.%20Plus%2C%20gritty%20casino%20drama%20The%20Cage%20continues.%20Here%E2%80%99s%20everything%20to%20watch%20this%20evening%20%E2%80%9CThere%20was%20one%20series%20that%20changed%20everything.%E2%80%9D%20In%201976%2C%20after%20turning%20down%20the%20director.&langpair=en%7Cru "HTTP/1.1 429 Too Many Requests"
+2026-05-03 16:42:08,198 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=TV%20tonight%3A%20let%20the%20David%20Attenborough%20100th%20birthday%20celebrations%20begin%21 "HTTP/1.1 200 OK"
+2026-05-03 16:42:10,984 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20broadcaster%20relives%20his%20landmark%20series%20that%20changed%20everything.%20Plus%2C%20gritty%20casino%20drama%20The%20Cage%20continues.%20Here%E2%80%99s%20everything%20to%20watch%20this%20evening%20%E2%80%9CThere%20was%20one%20series%20that%20changed%20everything.%E2%80%9D%20In%201976%2C%20after%20turning%20down%20the%20director.%20Fifty%20years%20later%2C%20the%20team%20who%20made%20Life%20on%20Earth%20reunite%20%E2%80%93%20including%20centenarian%20Attenborough%20%E2%80%93%20and%20it%20is%20a. "HTTP/1.1 200 OK"
+2026-05-03 16:42:13,717 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20broadcaster%20relives%20his%20landmark%20series%20that%20changed%20everything.%20Plus%2C%20gritty%20casino%20drama%20The%20Cage%20continues.%20Here%E2%80%99s%20everything%20to%20watch%20this%20evening%20%E2%80%9CThere%20was%20one%20series%20that%20changed%20everything.%E2%80%9D%20In%201976%2C%20after%20turning%20down%20the%20director%20general%20job%20%28%E2%80%9CI%20wouldn%E2%80%99t%20have%20been%20any%20good%20at%20it%21%E2%80%9D%29%20David%20Attenborough%20embarked%20on%20a%20revolutionary%20wildlife%20filming%20expedition.%20Fifty%20years%20later%2C%20the%20team%20who%20made%20Life%20on%20Earth%20reunite%20%E2%80%93%20including%20centenarian%20Attenborough%20%E2%80%93%20and%20it%20is%20a%20real%20treat%20to%20hear%20them%20reminisce%20about%20the%20three-year%20journey%20involving%2040%20countries%20and%20600%20species.%20Hollie%20Richardson%20David%20Attenborough%20finishes%20his%20tour%20in%20naturalist%20Matt%E2%80%99s%20mountain-flanked%20garden%20in%20the%20Scottish%20Highlands.%20Competing%20gamely%20with%20the%20spectacular%20scenery%20are%20a%20pine%20marten%20who%20stumbles%20upon%20a%20luxurious%20winter%20retreat%2C%20a%20buzzard%20willing%20to%20fight%20her%20own%20son%20for%20food%2C%20and%20some%20barn%20owl%20chicks%20who%2C%20thanks%20to%20cameras%20installed%20in%20Matt%E2%80%99s%20homemade%20bird%20box%2C%20we%20watch%20hatch%20and%20take%20their%20first%20flight. "HTTP/1.1 200 OK"
+2026-05-03 16:42:15,231 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=Lucinda%20Everett%20%E2%80%9CThis%20is%20looking%20worryingly%20like%20scrambled%20eggs.%E2%80%9D%20Comedian%20Phil%20Wang%20joins%20broadcaster%20Kate%20Garraway%2C%20Black%20Ops%E2%80%99%20Gbemisola%20Ikumelo%20and%20Alma%E2%80%99s%20Not%20Normal%20creator%20Sophie%20Willan%20in%20the%20tent%2C%20where%20they%20need%20to%20make%20mini%20loaf%20cakes%2C%20chilli%20cheese%20tear-and-share%20buns%20and%20a%20showstopper%20choux.%20HR%20Shades%20of%20Vertigo%2C%20as%20Harry%E2%80%99s%20lookalike%20is%20pushed%20from%20a%20balcony%20at%20a%20true-crime%20convention.%20And%20when%20a%20second%20murder%20follows%2C%20she%20uncovers%20a%20chilling%20personal%20connection%20to%20the%20killer.%20Meanwhile%2C%20Harry%20refuses%20to%20bail%20Marcello%20out%20of%20a%20mess%20of%20his%20own%20making%20%E2%80%93%20and%20Lola%20turns%20on%20Charlie%20for%20encouraging%20Fergus%20to%20nix%20their%20relationship.%20Ali%20Catterall%20It%E2%80%99s%20all%20gone%20a%20bit%20Breaking%20Bad%20down%20at%20the%20Envoy%20Casino.%20Matty%20and%20Leanne%20are%20hatching%20a%20madcap%20plan%20to%20get%20the%20missing%20drugs%20and%20stolen "HTTP/1.1 200 OK"
+2026-05-03 16:42:18,116 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=ZXQPART0ZXQ%0AKohlhaas%20review%20%E2%80%93Arinz%C3%A9%20Kene%20thunders%20as%20a%20wronged%20resistance%20fighter%20speaking%20truth%20to%20power%0AZXQPART1ZXQ%0ABrighton%20Dome%20Corn%20Exchange%20The%20timeless%20parable%20of%20a%2016th-century%20horse%20dealer%20turned%20violent%20protester%20questions%20the%20personal%20cost.%20Arinz%C3%A9%20Kene%20stands%2C%20runs%20or%20speaks%20inside%20it.%20For%20his%2016th-century%20horse-dealer%20protagonist%2C%20Michael%20Kohlhaas%2C%20its%20circularity%20represents%20a%20world%20in%20which%20all%20is%20in%20order.%20When%20its%20equanimity%20is%20disturbed%20with%20the%20theft%20of%20two%20of%20his%20most%20prized%20stallions%20at%20the%20hands%20of%20an.%20ZXQPART2ZXQ%0ABrighton%20Dome%20Corn%20Exchange%20The%20timeless%20parable%20of%20a%2016th-century%20horse%20dealer%20turned%20violent%20protester%20questions%20the%20personal%20cost%20of%20resistance%20in%20this%20awe-inspiring%20production%20from%20Omar%20Elerian%20I%20t%20starts%20and%20ends%20with%20a%20circle.%20Arinz%C3%A9%20Kene%20stands%2C%20runs%20or%20speaks%20inside%20it.%20For%20his%2016th-century%20horse-dealer%20protagonist%2C%20Michael%20Kohlhaas%2C%20its%20circularity%20represents%20a%20world%20in%20which%20all%20is%20in%20order. "HTTP/1.1 200 OK"
+2026-05-03 16:42:19,495 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=When%20its%20equanimity%20is%20disturbed%20with%20the%20theft%20of%20two%20of%20his%20most%20prized%20stallions%20at%20the%20hands%20of%20an%20entitled%20baron%2C%20he%20sets%20about%20single-handedly%20taking%20on%20the%20system%20that%20upholds%20this%20injustice%2C%20first%20taking%20his%20case%20to%20the%20law%20courts%2C%20then%20the%20emperor%2C%20and%20finally%20spilling%20angrily%20out%20on%20to%20the%20streets.%20Based%20on%20Heinrich%20von%20Kleist%E2%80%99s%20novella%2C%20Michael%20Kohlhaas%20%28itself%20based%20on%20a%20real-life%20case%29%2C%20this%20is%20an%20awe-inspiring%20production%2C%20stupendously%20directed%20by%20Omar%20Elerian%2C%20and%20resounding%20across%20the%20ages%20in%20its%20exploration%20of%20protest%20as%20well%20as%20the%20personal%20cost%20of%20speaking%20truth%20to%20power.%20It%20could%20not%20be%20more%20timeless%2C%20or%20more%20relevant.%20Kohlhaas%20exhausts%20all%20reasonable%2C%20legal%20routes%20against%20the%20theft%20before%20taking%20up%20the%20cudgel%2C%20only%20resorting%20to%20violence%20when%20the%20system%20of%20aristocratic%20privilege%20and%20corruption%20is%20exposed.%20%E2%80%9CWhat%20kind%20of%20world%20is%20this%3F%E2%80%9D%20he%20asks%20in%20disbelief%2C%20variously%20told%20to%20let%20it%20go%20%28%E2%80%9CIt%E2%80%99s%20just%20two%20horses%2C%E2%80%9D%20says%20a%20friend%29%20or%20show%20forgiveness%20%28says%20his%20wife%29.%20He%20is%20an%20extraordinary%20figure%20%E2%80%93%20rebel%2C%20resistance%20hero%20and%20self-destructive%20fanatic%20in%20one%2C%20thunderingly%20rendered%20by%20Kene. "HTTP/1.1 200 OK"
+2026-05-03 16:42:19,929 INFO [httpx] HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=The%20play%20asks%20difficult%20questions%20around%20protest%3A%20at%20what%20point%20does%20the%20seeking%20of%20justice%20turn%20into%20a%20desire%20for%20revenge%3F%20Does%20violent%20protest%20spawn%20its%20own%20injustices%3F%20Kohlhaas%20is%20not%20honoured%20at%20the%20end%20here%2C%20as%20in%20the%20original.%20These%20questions%20are%20left%20open-ended%2C%20wavering "HTTP/1.1 200 OK"

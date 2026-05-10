@@ -1,0 +1,26 @@
+INFO:     127.0.0.1:63452 - "GET /recommendations/feed?limit=10&period=last_24h&preset=sports HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55019 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55019 - "GET /users/me/preferences HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55019 - "GET /recommendations/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56884 - "GET /recommendations/feed?period=last_24h&summary_size=medium&feed_mode=all&remove_clickbait=true&limit=60 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56091 - "POST /recommendations/sources HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59845 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59884 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59884 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59884 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59884 - "GET /users/me/preferences HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59884 - "GET /recommendations/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65411 - "GET /recommendations/feed?period=last_24h&summary_size=medium&feed_mode=all&remove_clickbait=true&limit=60 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65411 - "GET /media/photo_2026-05-10_06-42-39.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65411 - "GET /media/photo_2026-05-10_07-02-01.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64557 - "GET /media/photo_2026-05-10_06-04-28.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64558 - "GET /media/photo_2026-05-10_07-12-01.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65411 - "GET /media/photo_2026-05-10_05-18-10.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65411 - "GET /media/IMG_0089.MP4 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:49395 - "GET /recommendations/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61368 - "PATCH /users/me/preferences HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61368 - "GET /recommendations/feed?period=last_24h&summary_size=medium&feed_mode=all&remove_clickbait=true&limit=60&preset=crypto HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61368 - "GET /recommendations/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61368 - "PATCH /users/me/preferences HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61368 - "GET /recommendations/feed?period=last_24h&summary_size=medium&feed_mode=all&remove_clickbait=true&limit=60&preset=politics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61374 - "GET /recommendations/status HTTP/1.1" 200 OK

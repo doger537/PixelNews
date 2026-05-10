@@ -1,0 +1,95 @@
+news-ai-mvp/
+├── README.md                              # Что за проект, запуск локально, команды
+├── .env.example                           # Пример переменных окружения
+├── .env                                   # Локальные секреты (не коммитить)
+├── .gitignore                             # Игнор секретов, кеша, build файлов
+├── requirements.txt                       # Python зависимости backend
+├── docker-compose.yml                     # Backend + PostgreSQL + Redis
+│
+├── app/
+│   ├── main.py                            # Точка входа FastAPI
+│   ├── config.py                          # Настройки приложения / ENV
+│   │
+│   ├── api/
+│   │   ├── auth.py                        # Google OAuth вход / выход
+│   │   ├── news.py                        # Лента, детали новости, поиск
+│   │   ├── user.py                        # Профиль и настройки пользователя
+│   │   ├── onboarding.py                 # Первичная персонализация
+│   │   └── health.py                      # Проверка статуса сервиса
+│   │
+│   ├── core/
+│   │   ├── db.py                          # Подключение PostgreSQL
+│   │   ├── cache.py                       # Redis кеш / сессии
+│   │   ├── security.py                    # JWT / cookies / auth helpers
+│   │   ├── logger.py                      # Логи приложения
+│   │   └── scheduler.py                   # Периодические задачи
+│   │
+│   ├── models/
+│   │   ├── user.py                        # Пользователи
+│   │   ├── news.py                        # Новости
+│   │   ├── source.py                      # Источники новостей
+│   │   ├── user_preferences.py            # Темы, язык, страна и т.д.
+│   │   └── user_events.py                 # Открытия/лайки/скрытия
+│   │
+│   ├── schemas/
+│   │   ├── auth.py                        # DTO auth
+│   │   ├── news.py                        # DTO news
+│   │   ├── user.py                        # DTO user
+│   │   └── common.py                      # Общие response схемы
+│   │
+│   ├── services/
+│   │   ├── parser_service.py              # Управление парсингом источников
+│   │   ├── ai_service.py                  # Gemma rewrite/summary/category
+│   │   ├── feed_service.py                # Персональная выдача новостей
+│   │   ├── user_service.py                # Пользовательская логика
+│   │   ├── source_service.py              # Работа с источниками
+│   │   └── analytics_service.py           # Сбор пользовательских событий
+│   │
+│   ├── parsers/
+│   │   ├── base_parser.py                # Общий интерфейс парсеров
+│   │   ├── rss_parser.py                 # RSS источники
+│   │   ├── site_parser.py                # HTML парсинг сайтов
+│   │   └── sources.json                  # Начальный список источников
+│   │
+│   ├── ai/
+│   │   ├── gemma_client.py               # Работа с Gemma API/local
+│   │   └── prompts/
+│   │       ├── rewrite.txt               # Сделать новость читабельной
+│   │       ├── summarize.txt             # Краткое саммари
+│   │       └── classify.txt              # Категория / теги
+│   │
+│   ├── utils/
+│   │   ├── text.py                       # Очистка текста / дедуп по title
+│   │   ├── dates.py                      # Время / timezone
+│   │   ├── validators.py                 # Проверки данных
+│   │   └── helpers.py                    # Мелкие вспомогательные функции
+│   │
+│   └── tests/
+│       ├── test_auth.py                  # Логин
+│       ├── test_news.py                  # Новости
+│       ├── test_parser.py                # Парсеры
+│       └── test_feed.py                  # Персональная лента
+│
+├── frontend/                              # Next.js клиент
+│   ├── package.json                       # JS зависимости
+│   ├── pages/
+│   │   ├── index.tsx                     # Редирект / landing
+│   │   ├── login.tsx                     # Вход
+│   │   ├── onboarding.tsx               # Настройка интересов
+│   │   ├── feed.tsx                      # Лента новостей
+│   │   └── profile.tsx                   # Личный кабинет
+│   │
+│   └── components/
+│       ├── Header.tsx                    # Верхняя панель
+│       ├── NewsCard.tsx                  # Карточка новости
+│       ├── TopicSelector.tsx             # Выбор тем
+│       └── Loader.tsx                    # Загрузчик
+│
+├── scripts/
+│   ├── run_parser.py                     # Ручной запуск парсинга
+│   ├── seed_sources.py                   # Импорт стартовых источников
+│   └── create_admin.py                   # Создать админа
+│
+└── docs/
+    ├── architecture.md                   # Как устроен проект
+    └── api.md                            # Основные endpoints

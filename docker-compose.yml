@@ -1,0 +1,59 @@
+services:
+  app:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env.example
+    environment:
+      DATABASE_URL: postgresql+psycopg://news:news@postgres:5432/news_ai_filter
+      REDIS_URL: redis://redis:6379/0
+      MEDIA_STORAGE_PATH: /app/data/processed/media
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - media-data:/app/data/processed/media
+      - telegram-sessions:/app/sessions
+    depends_on:
+      - postgres
+      - redis
+
+  worker:
+    build: .
+    command: python scripts/run_ingestion.py
+    env_file:
+      - .env.example
+    environment:
+      DATABASE_URL: postgresql+psycopg://news:news@postgres:5432/news_ai_filter
+      REDIS_URL: redis://redis:6379/0
+      MEDIA_STORAGE_PATH: /app/data/processed/media
+    volumes:
+      - .:/app
+      - media-data:/app/data/processed/media
+      - telegram-sessions:/app/sessions
+    depends_on:
+      - app
+      - postgres
+      - redis
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: news_ai_filter
+      POSTGRES_USER: news
+      POSTGRES_PASSWORD: news
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres-data:
+  media-data:
+  telegram-sessions:
+

@@ -1,0 +1,14 @@
+.git
+.env
+.env.production
+__pycache__/
+*.py[cod]
+*.log
+*.session
+*.session-journal
+sessions/
+data/
+.pytest_cache/
+frontend/node_modules/
+frontend/.next/
+frontend/out/

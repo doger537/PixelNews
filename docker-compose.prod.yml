@@ -1,0 +1,191 @@
+x-app-base: &app_base
+  build:
+    context: .
+    dockerfile: Dockerfile
+  env_file:
+    - .env.production
+  volumes:
+    - ./data/media:/app/media
+    - ./data/telegram_sessions:/app/sessions
+    - ./data/queues:/app/data/queues
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+
+x-runtime-env: &runtime_env
+  DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://pixelnews:change_me@postgres:5432/pixelnews}
+  REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+  CACHE_SERVICES_ENABLED: "true"
+  FEED_CACHE_URL: http://feed-cache:8011
+  USER_CACHE_URL: http://user-cache:8012
+  FANOUT_SERVICE_URL: http://fanout:8013
+  BACKEND_URL: http://backend:8000
+  MEDIA_STORAGE_PATH: /app/media
+  QUEUE_DIR: /app/data/queues
+  BACKGROUND_INGEST_ENABLED: "false"
+  BACKGROUND_PROCESS_ENABLED: "false"
+  AI_POST_EDITOR_ENABLED: "false"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  migrator:
+    <<: *app_base
+    restart: "no"
+    command: alembic upgrade head
+    environment:
+      <<: *runtime_env
+
+  feed-cache:
+    <<: *app_base
+    restart: unless-stopped
+    command: uvicorn app.microservices.feed_cache_server:app --host 0.0.0.0 --port 8011
+    environment:
+      <<: *runtime_env
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8011/health', timeout=3).read()\""]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+
+  user-cache:
+    <<: *app_base
+    restart: unless-stopped
+    command: uvicorn app.microservices.user_cache_server:app --host 0.0.0.0 --port 8012
+    environment:
+      <<: *runtime_env
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8012/health', timeout=3).read()\""]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+
+  fanout:
+    <<: *app_base
+    restart: unless-stopped
+    command: uvicorn app.microservices.fanout_service:app --host 0.0.0.0 --port 8013
+    environment:
+      <<: *runtime_env
+    depends_on:
+      redis:
+        condition: service_healthy
+      feed-cache:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8013/health', timeout=3).read()\""]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    <<: *app_base
+    restart: unless-stopped
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1
+    environment:
+      <<: *runtime_env
+    depends_on:
+      migrator:
+        condition: service_completed_successfully
+      feed-cache:
+        condition: service_healthy
+      user-cache:
+        condition: service_healthy
+      fanout:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3).read()\""]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+
+  article-worker:
+    <<: *app_base
+    restart: unless-stopped
+    command: python -m app.commands.worker
+    environment:
+      <<: *runtime_env
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  scheduler:
+    <<: *app_base
+    restart: unless-stopped
+    command: python -m app.commands.scheduler
+    environment:
+      <<: *runtime_env
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  fanout-worker:
+    <<: *app_base
+    restart: unless-stopped
+    command: python -m app.commands.fanout_worker
+    environment:
+      <<: *runtime_env
+    depends_on:
+      backend:
+        condition: service_healthy
+      fanout:
+        condition: service_healthy
+
+  ai-editor-worker:
+    <<: *app_base
+    restart: unless-stopped
+    command: python -m app.commands.ai_editor_worker
+    environment:
+      <<: *runtime_env
+      AI_POST_EDITOR_BACKGROUND_ENABLED: "true"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./data/media:/app/media:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  redis_data:

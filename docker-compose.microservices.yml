@@ -1,0 +1,140 @@
+services:
+  gateway:
+    build: .
+    command: uvicorn app.microservices.gateway:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env.example
+    environment:
+      LOAD_BALANCER_BACKENDS: http://app-a:8000,http://app-b:8000
+      CACHE_SERVICES_ENABLED: "true"
+      FEED_CACHE_URL: http://feed-cache:8011
+      USER_CACHE_URL: http://user-cache:8012
+      FANOUT_SERVICE_URL: http://fanout:8013
+    ports:
+      - "8000:8000"
+    depends_on:
+      - app-a
+      - app-b
+
+  app-a:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env.example
+    environment: &app_env
+      DATABASE_URL: postgresql+psycopg://news:news@postgres:5432/news_ai_filter
+      REDIS_URL: redis://redis:6379/0
+      CACHE_SERVICES_ENABLED: "true"
+      FEED_CACHE_URL: http://feed-cache:8011
+      USER_CACHE_URL: http://user-cache:8012
+      FANOUT_SERVICE_URL: http://fanout:8013
+      BACKEND_URL: http://app-a:8000
+      MEDIA_STORAGE_PATH: /app/data/processed/media
+    volumes: &app_volumes
+      - .:/app
+      - media-data:/app/data/processed/media
+      - telegram-sessions:/app/sessions
+      - queue-data:/app/data/queues
+    depends_on:
+      - postgres
+      - redis
+      - feed-cache
+      - user-cache
+
+  app-b:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env.example
+    environment:
+      <<: *app_env
+      BACKEND_URL: http://app-b:8000
+    volumes: *app_volumes
+    depends_on:
+      - postgres
+      - redis
+      - feed-cache
+      - user-cache
+
+  feed-cache:
+    build: .
+    command: uvicorn app.microservices.feed_cache_server:app --host 0.0.0.0 --port 8011
+    env_file:
+      - .env.example
+    ports:
+      - "8011:8011"
+
+  user-cache:
+    build: .
+    command: uvicorn app.microservices.user_cache_server:app --host 0.0.0.0 --port 8012
+    env_file:
+      - .env.example
+    ports:
+      - "8012:8012"
+
+  fanout:
+    build: .
+    command: uvicorn app.microservices.fanout_service:app --host 0.0.0.0 --port 8013
+    env_file:
+      - .env.example
+    environment:
+      DATABASE_URL: postgresql+psycopg://news:news@postgres:5432/news_ai_filter
+      CACHE_SERVICES_ENABLED: "true"
+      FEED_CACHE_URL: http://feed-cache:8011
+      USER_CACHE_URL: http://user-cache:8012
+      BACKEND_URL: http://app-a:8000
+      QUEUE_DIR: /app/data/queues
+    ports:
+      - "8013:8013"
+    volumes:
+      - .:/app
+      - queue-data:/app/data/queues
+    depends_on:
+      - app-a
+      - feed-cache
+
+  worker:
+    build: .
+    command: python scripts/run_ingestion.py
+    env_file:
+      - .env.example
+    environment: *app_env
+    volumes: *app_volumes
+    depends_on:
+      - app-a
+      - postgres
+      - redis
+
+  ai-editor-worker:
+    build: .
+    command: python -m app.commands.ai_editor_worker
+    env_file:
+      - .env.example
+    environment: *app_env
+    volumes: *app_volumes
+    depends_on:
+      - app-a
+      - postgres
+      - redis
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: news_ai_filter
+      POSTGRES_USER: news
+      POSTGRES_PASSWORD: news
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres-data:
+  media-data:
+  telegram-sessions:
+  queue-data:
